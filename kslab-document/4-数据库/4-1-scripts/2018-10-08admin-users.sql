@@ -1,0 +1,1 @@
+ALTER  TABLE  `admin_users` add `balance` decimal(10, 2) UNSIGNED NOT NULL DEFAULT 0.00 comment '账户余额';

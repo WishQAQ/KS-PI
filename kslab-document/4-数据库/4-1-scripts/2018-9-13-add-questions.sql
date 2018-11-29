@@ -1,0 +1,1 @@
+ALTER  TABLE  `questions` add title varchar(100) comment '标题',add attachment json(0) comment '附件';

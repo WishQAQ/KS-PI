@@ -1,0 +1,2 @@
+ALTER  TABLE  `products` add product_id varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '商品全局唯一id';
+ALTER  TABLE  `products` modify column description text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL COMMENT '商品详情';

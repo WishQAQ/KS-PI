@@ -1,0 +1,1 @@
+﻿ALTER  TABLE  `services` add score smallint(4) not null DEFAULT 0 comment '评分(平均分)';

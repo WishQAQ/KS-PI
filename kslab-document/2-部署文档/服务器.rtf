@@ -1,0 +1,109 @@
+{\rtf1\ansi\ansicpg936\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \'cf\'b5\'cd\'b3
+\f1 Ubuntu 16.04\
+
+\f0 \'bb\'b7\'be\'b3
+\f1 Nginx + Mysql5.7 + PHP7.2 + PHP-FPM7.2\
+\
+\
+
+\f0 \'c6\'f4\'b6\'af\'a3\'baservice nginx start\
+         service mysql start\
+	  service php7.2-fpm start
+\f1 \
+\
+
+\f0 \'d3\'f2\'c3\'fb\'a3\'ba
+\f1 server.kslab.com     \
+
+\f0 \'c4\'da\'cd\'f8
+\f1 ip
+\f0 \'a3\'ba
+\f1 172.16.0.129\
+
+\f0 \
+\'d4\'b6\'b3\'cc\'b5\'c7\'c2\'bd ssh kslab@
+\f1 172.16.0.129\
+\
+LoginName:kslab     Password:123456\
+\
+
+\f0 \'c7\'d0\'bb\'bb\'b5\'bd
+\f1 root
+\f0 \'d3\'c3\'bb\'a7   su -  \'bb\'f2\'d5\'df sudo -I\
+\
+Git \'b7\'fe\'ce\'f1\'b6\'cb\'b8\'fc\'d0\'c2\'b4\'fa\'c2\'eb\
+cd /home/web/kslab-server & git pull\
+\
+Git \'c7\'b0\'b6\'cb\'c7\'b0\'cc\'a8\'b8\'fc\'d0\'c2\'b4\'fa\'c2\'eb\
+cd /home/web/kslab-frontend & git pull\
+\
+Git \'c7\'b0\'b6\'cb\'ba\'f3\'cc\'a8\'b8\'fc\'d0\'c2\'b4\'fa\'c2\'eb\
+cd /home/web/kslab-backend & git pull
+\f1 \
+\
+\
+
+\f0 \'b1\'be\'b5\'d8\'d3\'f2\'c3\'fb\'b7\'c3\'ce\'ca
+\f1 web
+\f0 \'b7\'fe\'ce\'f1
+\f1 \
+
+\f0 \'d4\'da
+\f1 hosts 
+\f0 \'ce\'c4\'bc\'fe\'d6\'d0\'d7\'b7\'bc\'d3\'bc\'c7\'c2\'bc(Mac:/privates/etc/hosts   windows:C:/windows/system32/drivers/etc/hosts   linux:/etc/hosts)\
+
+\f1 172.16.0.129
+\f0       
+\f1 server.kslab.com\
+172.16.0.129
+\f0       
+\f1 test.kslab.com\
+172.16.0.129
+\f0       
+\f1 frontend.kslab.com\
+172.16.0.129
+\f0       
+\f1 backend.kslab.com\
+172.16.0.129
+\f0       
+\f1 zentao.kslab.com\
+\
+Mysql Host 
+\f0 \'a3\'ba
+\f1 172.16.0.129  
+\f2 Port
+\f0 \'a3\'ba
+\f2 3306\
+
+\f1 \
+Account:root   password:123456\
+DataBase : kslab\
+\
+
+\f0 \'b7\'c3\'ce\'ca\'cf\'ee\'c4\'bf\'b9\'dc\'c0\'ed\'cf\'b5\'cd\'b3\'ec\'f8\'b5\'c0
+\f1 \
+{\field{\*\fldinst{HYPERLINK "http://zentao.kslab.com/index.php?m=my&f=index"}}{\fldrslt http://zentao.kslab.com}}\
+
+\f0 \'b9\'dc\'c0\'ed\'d4\'b1\'d5\'cb\'bb\'a7\'a3\'ba
+\f1 admin
+\f0     kslab123\
+\
+\'b7\'c3\'ce\'ca\'b3\'d6\'d0\'f8\'bc\'af\'b3\'c9jenkins
+\f1 \
+{\field{\*\fldinst{HYPERLINK "http://zentao.kslab.com/index.php?m=my&f=index"}}{\fldrslt http://jenkins.kslab.com}}:8080\
+
+\f0 \'b9\'dc\'c0\'ed\'d4\'b1\'d5\'cb\'bb\'a7\'a3\'ba
+\f1 test
+\f0     123456
+\f1 \
+\
+\
+}

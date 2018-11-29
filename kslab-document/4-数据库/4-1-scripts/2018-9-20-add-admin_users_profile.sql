@@ -1,0 +1,1 @@
+ALTER  TABLE  `admin_users_profile` add id_card varchar(18) comment '身份证' add actual_name varchar(255) comment '真实姓名' add id_photo json(0) comment '身份证正反面照片';

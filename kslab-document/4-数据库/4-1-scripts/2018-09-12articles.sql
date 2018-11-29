@@ -1,0 +1,1 @@
+﻿ALTER  TABLE  `articles` add image_path varchar(255) comment '文章图片路径',add profile varchar(255) comment '文章简介',add attachment json comment '附件地址',add like_num int(11) comment '点赞数';

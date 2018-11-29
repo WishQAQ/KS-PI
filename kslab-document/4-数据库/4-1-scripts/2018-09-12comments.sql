@@ -1,0 +1,1 @@
+﻿add like_num int(11) comment '点赞数';
