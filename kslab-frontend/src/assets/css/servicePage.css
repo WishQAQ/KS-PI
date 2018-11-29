@@ -1,0 +1,127 @@
+#in_city{
+  left:0 !important;
+  top:40px !important;
+}
+.Citdy_div{
+  width: 100px;
+  font-size:14px;
+  padding: 8px;
+  background-color: #FFF;
+  border:1px solid red;
+  position: absolute;
+  top:0;
+  right: 0;
+  text-align: center;
+  border:1px solid #e5e5e5;
+  cursor: pointer;
+}
+.service_input{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.float{
+  clear: both;
+}
+.button_ss{
+  background-color: #FFF;
+  border:1px solid #FFF;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.service_div{
+  width: 8%;
+  float: left;
+}
+.service_float_img{
+  float:left;
+  margin-right: 10px;
+  position:relative;
+  top:8px;
+}
+.span_size{
+  font-size:16px;
+  color:#8b8b8b;
+}
+.Dibottom{
+  width: 15px;
+  position: relative;
+  top:-1px;
+  margin-left: 5px;
+}
+.service_cont_float{
+  width:70%;
+  float: left;
+  border-bottom:1px solid #e5e5e5;
+  padding: 5px;
+  position: relative;
+  top:-8px;
+}
+.fromsubmit input{
+  width: 65%;
+  height: 25px;
+  border:1px solid #FFF;
+  float: left;
+}
+.T_dw{
+  position: relative;
+  top:2px;
+  margin-right: 5px;
+}
+.oDivBlue_div{
+  width: 60px;
+  height: 25px;
+  border:1px solid #31c2fe;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+  color:#31c2fe;
+  padding-top: 3px;
+  position: relative;
+  margin-left: 10px;
+}
+.oDivBlue_div img{
+  position: absolute;
+  top:-4px;
+  right: -4px;
+}
+.category_div{
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding:10px 10px 5px 0;
+}
+.preachat_cdiv{
+  width: 100px;
+  float: left;
+}
+.preachat_cdiv img{
+  position: relative;
+  top:6px;
+}
+.preachat_cdiv span{
+  font-size:16px;
+  color:#8b8b8b;
+  position: relative;
+  top:2px;
+  left:6px;
+}
+.Float_cont{
+  width: 350px;
+  height: 28px;
+  float: left;
+  position: relative;
+  top:5px;
+  /* padding-top: 3px; */
+}
+.span_float{
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.span_float span{
+  font-size:15px;
+  position: relative;
+  top:-1px;
+  color:#8b8b8b;
+  margin-left: 5px;
+}

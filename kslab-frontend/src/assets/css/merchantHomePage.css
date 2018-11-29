@@ -1,0 +1,385 @@
+/*头部*/
+.merchantHomePage .header{
+  margin-bottom: 0 !important;
+}
+
+.merchantHP_title{
+
+}
+
+/*头部banner块*/
+.merchantHP_title_top{
+  position: relative;
+}
+.merchantHP_title_img{
+  width: 100%;
+  min-width: 1200px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 320px;
+  overflow: hidden;
+}
+
+.merchantHP_title_img img{
+  width: 100%;
+}
+
+
+/*粉丝/头像*/
+.merchantHP_title_userName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -480px;
+}
+
+.merchantHP_title_focus,
+.merchantHP_title_fans{
+  color: #fff;
+  text-align: center;
+}
+.merchantHP_title_focus span,
+.merchantHP_title_fans span{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.merchantHP_title_focus p,
+.merchantHP_title_fans p{
+  font-size: 24px;
+}
+
+.merchantHP_title_avatar{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+  box-shadow: 0 2px 5px 0
+  rgba(34, 24, 21, 0.16);
+  position: relative;
+  top: 40px;
+}
+.merchantHP_title_avatar img{
+  width: 100%;
+}
+
+
+
+/*公司信息*/
+.merchantHP_title_bottom{
+  background-color: #fff;
+  padding-top: 70px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.merchantHP_title_bottom h2{
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.merchantHP_title_bottom p{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.merchantHP_title_bottom span{
+  font-size: 16px;
+  color: #999;
+}
+
+.merchantHP_title_btm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.merchantHP_title_btm button{
+  width: 100px;
+  height: 35px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.merchantHP_title_btm button:nth-child(1){
+  color: #fff;
+  background-color: #15bafe;
+}
+.merchantHP_title_btm button:nth-child(2){
+  border-color: #15bafe;
+  color: #15bafe;
+}
+
+
+
+/*主体内容*/
+/*tab标签*/
+.merchantHP_center .el-tabs__header{
+  background-color: #fff;
+  margin-bottom: 30px !important;
+}
+
+.merchantHP_center .el-tabs__nav-scroll{
+  display: flex;
+  justify-content: center;
+}
+
+.merchantHP_center .el-tabs__nav-wrap::after{
+  background-color: #fff !important;
+  z-index: 0 !important;
+}
+
+/*tab主体*/
+.merchantHP_center .el-tabs__content{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 25px 0 25px;
+}
+
+.merchantHP_mall_list{
+  margin-bottom: 50px;
+}
+
+/*标题*/
+.merchantHP_tab_title{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.merchantHP_tab_title span{
+  width: 8px;
+  height: 25px;
+  background-color: #15bafe;
+  margin-right: 10px;
+}
+.merchantHP_tab_title p{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000;
+}
+.merchantHP_tab_title p:nth-child(3){
+  color: #e5e5e5;
+  margin-left: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+/*公司特色*/
+.merchantHP_characteristic{
+  padding: 0 20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #999;
+  line-height: 25px;
+}
+
+
+
+
+
+
+/*公司介绍*/
+.merchantHP_introduction{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*公司简介轮播图*/
+.merchantHP_introduction_swiper{
+  height: 450px;
+  width: 500px;
+}
+
+.merchantHP_introduction_swiper .swiper-slide {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.merchantHP_introduction_swiper .swiper-slide img{
+  width: 100%;
+}
+
+.merchantHP_introduction_swiper .gallery-top {
+  height: 80%!important;
+  width: 100%;
+}
+.merchantHP_introduction_swiper .gallery-thumbs {
+  height: 20%!important;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.merchantHP_introduction_swiper .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.merchantHP_introduction_swiper .gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+  border: 5px solid #999;
+}
+
+
+
+/*公司简介文本*/
+.merchantHP_introduction_text{
+  width: 580px;
+  margin-right: 15px;
+}
+
+/*公司名/评分*/
+.merchantHP_introduction_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #222;
+  font-weight: normal;
+}
+
+.merchantHP_introduction_main{
+  font-size: 14px;
+  color: #999;
+}
+
+
+
+/*服务活动盒子*/
+.merchantHP_service,
+.merchantHP_activity{
+  padding-bottom: 30px;
+}
+.merchantHP_list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 2px;
+}
+.merchantHP_list_box{
+  width: 280px;
+  padding-bottom: 10px;
+  border: 1px solid #ededed;
+  overflow: hidden;
+  margin: 3px;
+  position: relative;
+}
+
+/*图片*/
+.merchantHP_list_img{
+  width: 280px;
+  height: 210px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.merchantHP_list_img img{
+  width: 100%;
+}
+/*活动时间*/
+.merchantHP_list_time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  right: 30px;
+  top: 170px;
+}
+.merchantHP_list_time p{
+  width: 100%;
+  height: 100%;
+  background-color: #15bafe;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*名称价格*/
+.merchantHP_list_text{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+.merchantHP_list_text p{
+  font-size: 16px;
+  color: #121212;
+}
+.merchantHP_list_text div{
+  font-size: 24px;
+  color: #15bafe;
+  position: relative;
+  top: 3px;
+}
+.merchantHP_list_text div span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*评分观看数*/
+.merchantHP_List_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.merchantHP_bottom_rate .el-rate__icon{
+  font-size: 14px !important;
+  margin-right: 2px !important;
+}
+
+.merchantHP_bottom_nbm{
+  font-size: 12px;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.merchantHP_bottom_nbm p:last-child{
+  margin-left: 10px;
+}
+.merchantHP_bottom_nbm i{
+  margin-right: 2px;
+  font-size: 10px;
+}
+
+
+/*分页器*/
+.merchantHP_list_pagination{
+  text-align: center;
+  margin-top: 20px;
+}

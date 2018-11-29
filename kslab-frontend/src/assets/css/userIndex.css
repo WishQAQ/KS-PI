@@ -1,0 +1,395 @@
+
+.home{
+  margin-top: 20px;
+}
+
+.home_box{
+  padding: 25px 24px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 2px rgba(34,24,21,.16);
+}
+
+.home_box_title{
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+.home_box_title p{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #37313f;
+}
+.home_box_title p>span{
+  display: block;
+  width: 6px;
+  height: 20px;
+  background-color: #15bafe;
+  margin-right: 10px;
+}
+
+.home_box_title>span{
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #e5e5e5;
+  font-weight: bold;
+  display: block;
+  margin-left: 15px;
+}
+
+
+/*盒子*/
+.userIndex_box_border{
+  border: 1px solid #e0e0e0;
+  display: inline-block;
+  margin-right: 40px;
+}
+.userIndex_box_border:not(:last-child){
+  margin-bottom: 25px;
+}
+.userIndex_box{
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.userIndex_box_name{
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+/*图标*/
+.userIndex_box_name_left{
+  height: 40px;
+  border-left: 4px solid #15bafe;
+  padding-left: 15px;
+  margin-left: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userIndex_box_name_left img{
+  height: 30px;
+}
+/*文字*/
+.userIndex_box_name_right{
+  margin-left: 10px;
+  line-height: 20px;
+}
+.userIndex_box_name_right p{
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+.userIndex_box_name_right span{
+  font-size: 16px;
+  color: #ccc;
+}
+
+
+/*电量*/
+.userIndex_electric{
+  width: 325px;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.userIndex_electric_title,
+.userIndex_electric_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userIndex_electric_bottom>span:last-child{
+  font-size: 12px;
+  color: #15bafe;
+}
+/*进度条*/
+.userIndex_electric_center{
+  width: 100%;
+  background-color: #dedede;
+  border-radius: 5px;
+  height: 17px;
+  margin-top: 10px;
+}
+.userIndex_electric_center>p{
+  /* width: 40%; */
+  height: 100%;
+  border-radius: 5px;
+  /*background: linear-gradient(to bottom,#6fd3fc,#15a9fe,#207be1);*/
+  background-image: linear-gradient(0deg,
+  #207be1 0%,
+  #15a9fe 51%,
+  #84dbff 94%,
+  #6fd3fc 100%),
+  linear-gradient(
+    #15bafe,
+    #15bafe);
+  background-blend-mode: normal,
+  normal;
+  box-shadow: 0 0 5px 2px rgba(55,197,255,.3);
+}
+
+
+/*增减数值*/
+.userIndex_box_data{
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 100%;
+}
+.userIndex_box_data_box{
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.userIndex_box_data_box:not(:last-child){
+  border-right: 1px solid #e0e0e0;
+}
+.data_box_text{
+  font-size: 14px;
+  color: #7a7a7a;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.data_box_text span{
+  font-size: 18px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+/*猜你喜欢*/
+.like{
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 30px !important;
+  box-shadow: 1px 1px 5px 2px rgba(34,24,21,.16);
+}
+
+/*标题*/
+.like_title{
+  position: relative;
+}
+
+.like .el-tabs__header{
+  position: absolute;
+  right: 0;
+  top: -70px;
+  border: none;
+}
+.like .el-tabs__content{
+  overflow: visible;
+}
+
+.like .el-tabs__nav-wrap::after{
+  background-color: transparent !important;
+}
+
+
+
+
+
+/*活动盒子*/
+/* 清除浮动 */
+.like_activity{
+  width: 100%;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding-left: 15px;
+
+}
+.clearfix:after{
+  content:".";
+  display:block;
+  clear:both;
+  /* visibility:hidden; */
+ }
+
+.like_activity_box{
+  float: left;
+  /* width: 370px;
+  height: 385px; */
+  width: 32%;
+  /* height: 65%; */
+  height: 373px;
+  border: 1px solid #eee;
+  transition: all .3s;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.like_activity_box:hover{
+  box-shadow: 0 0 1px 1px rgba(34,24,21,.16);
+  transition: all .3s;
+}
+
+.like_activity_img{
+  width: 100%;
+  /* height: 100%; */
+  height: 65%;
+  /* height: 250px; */
+  position: relative;
+  background-color: #eee;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like_activity_img img{
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*活动时间*/
+.like_activity_img p{
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background-color: #15bafe;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+.like_activity_img p span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+
+/*名字、tag标签*/
+.like_activity_center{
+  margin: 0 10px;
+}
+.like_activity_center_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like_activity_center_top>p{
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.like_activity_center_top .like_tags{
+  display: flex;
+  align-items: center;
+}
+.like_activity_center_top .like_tags span{
+  display: block;
+  border: 1px solid #15bafe;
+  color: #15bafe;
+  font-size: 12px;
+  padding: 0 3px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+
+/*评分、价格*/
+.like_activity_bottom{
+  margin: 10px 10px 15px 10px;
+}
+
+.like_activity_bottom .like_activity_star{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.like_activity_money{
+  color: #15bafe;
+  font-size: 30px;
+  font-weight: bold;
+}
+.like_activity_money span{
+  font-size: 20px;
+
+}
+
+
+
+
+/*查看人数*/
+.like_activity_view{
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.like_activity_view_left{
+  font-size: 14px;
+  color: #8b8b8b;
+}
+
+.like_activity_view_right{
+  font-size: 14px;
+  color: #8b8b8b;
+}
+.like_activity_view_right span{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+/*加载*/
+@keyframes load-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.load {
+  margin: 50px auto 0 auto;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #b1b1b1;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: load-spin 1.2s linear infinite;
+}
+.public{
+  color:#8e8e8e;
+  font-size: 14px;
+}
+/* span{
+  color: #8e8e8e;
+  font-size: 14px;
+} */
+@media screen and (max-width: 1200px) {
+  .like_activity{
+    padding-left: 12px;
+  }
+  .like_activity_box{
+    height: 322px;
+    margin-right: 12px;
+  }
+  .like_activity_img{
+    height: 60%;
+  }
+  
+}

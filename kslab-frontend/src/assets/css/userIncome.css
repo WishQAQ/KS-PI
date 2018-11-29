@@ -1,0 +1,253 @@
+.userIncome{
+  display: flex;
+  justify-content: space-between;
+}
+
+.userIncome_left{
+  width: 480px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/*图表*/
+.userIncome_charts{
+  height: 360px;
+  overflow: hidden;
+  margin-top: -30px;
+}
+
+
+
+/*总余额*/
+.userIncome_box{}
+
+.userIncome_box_balance{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+.userIncome_box_balance>p{
+  font-size: 34px;
+  color: #15bafe;
+}
+.userIncome_box_balance>p>span{
+  font-size: 15px;
+  color: #222;
+  display: block;
+}
+
+
+
+/*日期收入*/
+.userIncome_box_day{
+
+}
+
+
+
+
+
+.userIncome_right{
+  width: 710px;
+  background-color: #fff;
+  padding: 25px;
+}
+.userIncome_right>p{
+  font-size: 16px;
+  color: #222;
+}
+
+.userIncome_right .details{
+  overflow: hidden !important;
+  text-overflow:ellipsis !important;
+  white-space: nowrap !important;
+  width: 350px !important;
+}
+
+
+.userIncome_table_pagination{
+  text-align: center;
+  margin-top: 20px;
+}
+.userIncome_box_balance_btm{
+  width: 73px;
+  height: 30px;
+  background: #15bafe;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.userIncome_box_day>div>img{
+  width: 35px;
+  height: 35px;
+}
+.userIncome_box_day>div>span{
+  font-size: 16px;
+}
+.image{
+  width: 75px;
+  height: 15px;
+  margin-bottom: 12px;
+}
+.til{
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  color:#fff;
+  text-align: center;
+  line-height: 30px;
+  background: url(/static/img/icon/jiant.png) no-repeat;
+  background-size: 100% 100%;
+  margin-right: 20px;
+}
+.drawing{
+  padding: 10px 50px;
+  display: flex;
+}
+.xx{
+  width: 320px;
+}
+.drawing-top{
+  display: flex;
+  width: 320px;
+}
+.drawing-top>div{
+  width: 145px;
+  height: 60px;
+  border: 1px solid #f4f4f4;
+  position: relative;
+  display: flex;
+  justify-content: center;align-items: center
+}
+.sle{
+  position: absolute;
+  bottom: 0;right: 0;
+}
+.pay{
+  margin-right: 15px;
+  width: 22px;
+  height: 22px;
+}
+.drawing-top>div>span{
+  font-size: 16px;
+  color:#a1a1a1;
+}
+.drawing-bot>input{
+  width: 300px;
+  height: 30px;
+  outline: none;
+  background: #f2f2f2;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 7px;
+  font-size: 14px;
+  color:#999999;
+}
+.drawing-bot{
+  margin-top: 12px;
+}
+.xxx{
+  display: flex;
+  justify-content: space-between;
+}
+.extract{
+  margin-right: 40px;
+}
+.extract>input{
+  width: 160px;
+  height: 30px;
+  outline: none;
+  background: #f2f2f2;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 7px;
+  font-size: 14px;
+  color:#999999;
+}
+.balance{
+  display: flex;
+  line-height: 30px;
+}
+.phone{position: relative;}
+.phone>span{
+  position: absolute;
+  left: 7px;top: 4px;
+  color: #222222;
+  font-size: 14px;
+}
+.phone>input{
+  width: 265px;
+  height: 30px;
+  outline: none;
+  background: #f2f2f2;
+  border: 0;
+  padding: 0 35px;
+  border-radius: 7px;
+  font-size: 14px;
+  color:#999999;
+  box-sizing: border-box;
+}
+.phone>img{
+  width: 15px;height: 15px;
+  position: absolute;
+  right: 7px;top: 7px;
+}
+.verification{
+  position: relative;
+  margin-top: 15px;
+}
+.verification>input{
+  width: 245px;
+  height: 30px;
+  outline: none;
+  background: #f2f2f2;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 7px;
+  font-size: 14px;
+  color:#999999;
+}
+.verification>div{
+  width: 80px;height: 30px;
+  background: #999999;
+  color:#fff;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 0px;right:0px;
+}
+.switch1, .switch2{
+  height: 30px;
+  color:#fff;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;line-height: 30px;
+  background: #999999;
+  /* background: #15bafe; */
+}
+.tab{
+  display: flex;
+  /* margin: 0 auto; */
+}
+.userIncome_charts{
+  margin-top: 1px;
+}
+.slect{
+  background: #15bafe;
+}
+.block{
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  padding: 10px
+}
+.demonstration{
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+}

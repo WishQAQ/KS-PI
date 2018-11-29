@@ -1,0 +1,493 @@
+/*他人资料头部*/
+.others_header{
+  box-shadow: 0 2px 5px 0
+  rgba(34, 24, 21, 0.16);
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+/*背景图*/
+.others_banner{
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.others_banner img{
+  width: 100%;
+}
+
+/*信息*/
+.others_header_text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+
+.others_info{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top: -25px;
+}
+/*头像*/
+.others_avatar{
+  width: 130px;
+  height: 130px;
+  border: 5px solid #fff;
+  box-shadow: 0 2px 5px 0
+  rgba(34, 24, 21, 0.16);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.others_avatar img{
+  width: 100%;
+  height: 100%;
+}
+
+.others_info_text{
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.others_info_text>p{
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.others_info_text>span{
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.others_info_btn{
+  display: flex;
+  align-items: center;
+}
+.others_info_btn button{
+  border: 1px solid transparent;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.others_info_btn button:nth-child(1){
+  color: #fff;
+  background-color: #15bafe;
+  margin-right: 10px;
+}
+.others_info_btn button:nth-child(2){
+  border-color: #15bafe;
+  color: #15bafe;
+}
+
+
+/*粉丝*/
+.others_fans{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.others_fans i{
+  font-size: 40px;
+  color: #15bafe;
+  position: relative;
+  top: -5px;
+  margin-right: 10px;
+}
+
+.others_fans p{
+  font-size: 14px;
+  color: #222;
+}
+.others_fans span{
+  font-size: 18px;
+  color: #222;
+}
+
+
+
+
+/*主体tab页*/
+.others_main{
+  background-color: #fff;
+  padding: 20px 20px 0 20px;
+}
+
+/*标题*/
+.others_main_title{
+  display: flex;
+  align-items: center;
+}
+.others_main_title span{
+  display: block;
+  width: 8px;
+  height: 25px;
+  background-color: #15bafe;
+  margin-right: 10px;
+}
+.others_main_title p{
+  font-size: 20px;
+  color: #000;
+}
+
+.el-tabs__content{
+  position: relative;
+  overflow: unset !important;
+  padding-bottom: 20px;
+}
+
+.others_main_title{
+  position: absolute;
+  left: 20px;
+  top: -55px;
+}
+
+/*tab选项卡*/
+.others_tab .el-tabs__nav{
+  float: right !important;
+}
+.others_tab .el-tabs__item{
+  color: #999 !important;
+}
+.others_tab .el-tabs__item.is-active{
+  color: #222 !important;
+}
+
+
+
+/*视频列表*/
+.others_video{
+  height: 460px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.others_video_list{
+  margin: 5px;
+}
+
+/*视频页面选项卡*/
+.others_video_img{
+  width: 220px;
+  height: 165px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.others_video_img img{
+  width: 100%;
+  height: 100%;
+}
+
+/*视频名/时长*/
+.others_video_name{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10,10,10,.5);
+  color: #fff;
+  padding: 0 10px;
+}
+
+.others_video_name p{
+  font-size: 14px;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.others_video_name span{
+  font-size: 12px;
+}
+
+
+/*tags标签*/
+.others_video_tags{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.others_video_tags span{
+  color: #999;
+  display: inline-block;
+  border-bottom: 1px solid #999;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.others_video_tags span:hover{
+  color: #15bafe;
+  border-bottom: 1px solid #15bafe;
+}
+
+
+/*用户ID*/
+.others_video_userName{
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+/*观看数/时间*/
+.others_video_time{
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+
+.others_video_time span{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+
+/*分页器*/
+.others_bottom{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+/*百科分页*/
+.others_encyclopedia{
+  display: flex;
+  height: 460px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.others_encyclopedia .others_encyclopedia_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 570px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 150px;
+}
+
+/*图片*/
+.others_encyclopedia_img{
+  width: 185px;
+  height: 140px;
+  overflow: hidden;
+}
+.others_encyclopedia_img img{
+  width: 100%;
+  height: 100%;
+}
+
+/*信息*/
+.others_encyclopedia_text{
+  border-bottom: 1px solid #dcdcdc;
+  width: 370px;
+  height: 140px;
+}
+.others_encyclopedia_text h2{
+  font-size: 16px;
+  color: #222;
+}
+
+.others_encyclopedia_text>p{
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+  height: 67px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.others_encyclopedia_nbm{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  color: #999;
+}
+.others_encyclopedia_nbm span{
+  display: block;
+  margin: 0 5px;
+}
+
+
+
+
+/*文章tab页*/
+.others_article{
+  display: flex;
+  align-items: center;
+  height: 460px;
+  flex-wrap: wrap;
+}
+
+.others_article_list{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ededed;
+  cursor: pointer;
+}
+.others_article_list:nth-child(7),
+.others_article_list:nth-child(8),
+.others_article_list:nth-child(9){
+  border-bottom: none;
+}
+.others_article_list:nth-child(3) .others_article_text,
+.others_article_list:nth-child(6) .others_article_text,
+.others_article_list:nth-child(9) .others_article_text{
+  border-right: none;
+}
+
+.others_article_img{
+  width: 180px;
+  height: 135px;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+.others_article_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.others_article_text{
+  width: 175px;
+  height: 135px;
+  position: relative;
+  border-right: 1px solid #ededed;
+}
+.others_article_text h2{
+  font-size: 16px;
+  color: #333;
+}
+
+.others_article_tags{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #ccc;
+}
+.others_article_tags i{
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+.others_article_tags p{
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+
+
+
+/*问题*/
+.others_question{
+  display: flex;
+  height: 460px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.others_question_list{
+  width: 575px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.others_question_list:nth-child(1),
+.others_question_list:nth-child(3),
+.others_question_list:nth-child(5),
+.others_question_list:nth-child(7){
+  border-right: 1px solid #e5e5e5;
+  padding-right: 20px;
+}
+.others_question_list h2{
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 10px;
+  width: 530px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.others_question_tags{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.others_question_tags p:not(:last-child){
+  margin-right: 10px;
+}
+.others_question_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.others_question_nbm{
+  display: flex;
+  align-items: center;
+}
+.others_question_nbm p{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #8b8b8b;
+}
+.others_question_nbm p i{
+  margin-right: 5px;
+}
+.others_question_nbm p:not(:last-child){
+  margin-right: 10px;
+}
+.others_question_time{
+  font-size: 14px;
+  color: #999;
+}
+
+
+
+/*回答*/
+.others_reply{
+  display: flex;
+  height: 460px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.others_reply_text{
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.others_reply .others_question_list{
+  padding-bottom: 40px;
+  cursor: pointer;
+}

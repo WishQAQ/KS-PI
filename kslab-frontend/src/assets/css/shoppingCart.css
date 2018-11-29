@@ -1,0 +1,141 @@
+.mod_shopping_cart .el-table .el-table__header{
+    width:100%!important;
+}
+.mod_shopping_cart .el-table th{
+    background:#f4f4f4;
+}
+.mod_shopping_cart .el-checkbox__input.is-checked .el-checkbox__inner,.mod_shopping_cart .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color:#15bafe;
+    border-color:#15bafe;
+}
+.mod_shopping_cart .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color:#fff!important;
+    border-color:#dcdfe6;
+    transition:background-color 0s cubic-bezier(.71,-.46,.29,1.46);
+}
+.mod_shopping_cart .el-table .cart_product_detail{
+    display:inline-block;
+    margin-left:18px;
+    color:#000;
+    font-size:14px;
+    text-align:left;
+    vertical-align:top;
+}
+.mod_shopping_cart .el-table .cart_detail_merchant{
+    color:#666;
+    font-size:14px;
+    margin-top:10px;
+    font-weight:normal;
+}
+.mod_shopping_cart .el-table .el-button{
+    color:#15bafe;
+    margin-top:10px;
+    padding:3.5px 5px;
+    border-color:#15bafe;
+}
+.mod_shopping_cart .el-table .el-button:hover{
+    color:#fff;
+    background:#15bafe;
+}
+.mod_shopping_cart .shopping_cart_list .el-input-number{
+    width:72px;
+    height:30px;
+    line-height:30px;
+}
+.mod_shopping_cart .shopping_cart_list .el-icon-delete{
+    cursor:pointer;
+}
+.mod_shopping_cart .shopping_cart_list .el-icon-delete:hover{
+    color:#15bafe;
+}
+.mod_shopping_cart .el-input-number__decrease, .el-input-number__increase{
+    width:24px;
+    height:28px;
+    box-sizing:border-box;
+}
+.mod_shopping_cart .el-input-number__decrease:hover:not(.is-disabled), .el-input-number__increase:hover{
+    color:#fff;
+    background:#15bafe;
+}
+.mod_shopping_cart .el-input-number .el-input__inner{
+    padding:0;
+    height:30px;
+}
+.el-input-number__decrease:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled), .el-input-number__increase:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled){
+    border-color:#dcdfe6;
+}
+.mod_shopping_cart .el-table .subtotal,
+.mod_shopping_cart .el-table .unit_price{
+    vertical-align:middle;
+}
+.mod_shopping_cart .shopping_cart_total{
+    width:1200px;
+    height:60px;
+    line-height:60px;
+    margin-top:42px;
+    padding-left:43px;
+    font-size:14px;
+    border:1px solid #ebebeb;
+}
+.mod_shopping_cart .shopping_cart_total .checkbox_txt{
+    margin-left:3px;
+    color:#666;
+    cursor:pointer;
+}
+.mod_shopping_cart .shopping_cart_total .remove_select{
+    cursor:pointer;
+    margin-left:31px;
+}
+.mod_shopping_cart .shopping_cart_total .remove_select:hover{
+    color:#15bafe;
+}
+.mod_shopping_cart .shopping_cart_total .floatRight{
+    height:60px;
+    line-height:inherit;
+    box-sizing:border-box;
+}
+.mod_shopping_cart .shopping_cart_total .close_an_account{
+    color:#fff;
+    cursor:not-allowed;
+    font-size:20px;
+    margin-right:-1px;
+    padding:19px 35px 17px;
+    background:#bebebe;
+}
+.mod_shopping_cart .shopping_cart_total .close_an_account.active{
+    cursor:pointer;
+    background:#15bafe;
+}
+.mod_shopping_cart .shopping_cart_total .selected_txt{
+    font-size:16px;
+    margin-right:29px
+}
+.mod_shopping_cart .shopping_cart_total .selected_num{
+    color:#15bafe;
+}
+.mod_shopping_cart .shopping_cart_total .selected_product_price{
+    font-size:16px;
+    margin-right:52px;
+}
+.mod_shopping_cart .shopping_cart_total .product_total_price{
+    color:#15bafe;
+}
+.mod_shopping_cart .fixed{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:999;
+    background:#fff;
+    box-shadow: 0 -2px 10px 0 rgba(34, 24, 21, 0.1);
+}
+.mod_shopping_cart .fixed .shopping_cart_total{
+    margin:0 auto;
+    border:none;
+}
+.mod_shopping_cart .fixed .shopping_cart_total .close_an_account{
+    padding-bottom:19px;
+}
+.mod_shopping_cart .el-table__empty-block{
+    height:490px;
+}

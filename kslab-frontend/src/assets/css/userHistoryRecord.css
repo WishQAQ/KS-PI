@@ -1,0 +1,240 @@
+.userVideo{
+
+}
+
+.userVideo_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.userVideo_img{
+  width: 270px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.userVideo_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.userVideo_text{
+  width: 575px;
+}
+
+.userVideo_text h4{
+  font-size: 18px;
+  color: #222;
+  padding-bottom: 15px;
+}
+
+.userVideo_text p{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.userVideo_text .userVideo_tags{
+  margin-bottom: 20px;
+}
+
+.userVideo_text .userVideo_message{
+  font-size: 14px;
+  color: #999;
+}
+
+
+.userVideo_status{}
+
+.userVideo_status div{
+  width: 45px;
+  height: 45px;
+  border: 2px solid #afafaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.userVideo_status div span{
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: #afafaf;
+}
+
+.userVideo_status p{
+  font-size: 14px;
+  color: #999;
+}
+
+
+.userVideo_bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.userVideo_bottom_arr{}
+.userVideo_bottom_arr input{
+  display: none;
+}
+.userVideo_bottom_arr label{
+  padding: 5px 10px;
+  background-color: #15bafe;
+  border: 1px solid #15bafe;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.userVideo_bottom_arr label:last-child{
+  background-color: #fff;
+  border: 1px solid #999;
+  color: #999;
+}
+
+
+
+
+/*百科历史*/
+.userEncyclopedia_box{
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 55px;
+  padding-right: 45px;
+}
+
+
+.userEncy_title{
+  margin-left: 45px;
+  font-size: 20px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.userEncy_title span{
+  display: block;
+  width: 6px;
+  height: 20px;
+  background-color: #15bafe;
+  margin-right: 15px;
+}
+
+.userEncy_main{
+  display: flex;
+  align-items: center;
+}
+
+.userEncy_check{
+  margin-right: 25px;
+}
+
+.userEncy_img{
+  width: 270px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.userEncy_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.userEncy_text{
+  width: 750px;
+  font-size: 14px;
+  color: #666;
+  margin-right: 70px;
+}
+.userEncy_text p{
+  margin-bottom: 15px;
+}
+
+.userEncy_text div{
+  color: #999;
+}
+
+
+.userEncy_status{}
+.userEncy_status div{
+  width: 45px;
+  height: 45px;
+  border: 2px solid #afafaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.userEncy_status div span{
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: #afafaf;
+}
+
+
+.userEncy_bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.userEncy_bottom_arr{}
+.userEncy_bottom_arr input{
+  display: none;
+}
+.userEncy_bottom_arr label{
+  padding: 5px 10px;
+  background-color: #15bafe;
+  border: 1px solid #15bafe;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.userEncy_bottom_arr label:last-child{
+  background-color: #fff;
+  border: 1px solid #999;
+  color: #999;
+}
+/* 当浏览器屏幕小于1200 */
+@media screen and (max-width: 1200px) {
+  .userEncy_img{
+    width: 250px;
+  }
+  .userVideo_text{
+    width: 500px;
+  }
+  .userEncy_text{
+    width: 500px;
+    margin-right: 20px;
+  }
+  .userEncy_title{
+    margin-left: 25px;
+  }
+  .userEncy_check{
+    margin-right: 10px;
+  }
+  .userVideo_box{
+    padding-left: 35px;
+  }
+  .userEncyclopedia_box{
+    padding-left: 35px;
+  }
+}

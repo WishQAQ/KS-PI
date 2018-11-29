@@ -1,0 +1,67 @@
+.opinion .input-with-select .el-input-group__prepend {
+  background-color: #fff;
+}
+
+.opinion_input{
+  width: 270px;
+}
+.opinion{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.opinion_banner{
+  margin-bottom: 35px;
+}
+.opinion_banner img{
+  width: 100%;
+}
+.opinion_select{
+  margin-bottom: 30px;
+}
+.opinion .el-input__inner{
+  height: 35px;
+  line-height: 35px !important;
+}
+.opinion_select .el-select .el-input{
+  min-width: 210px !important;
+}
+.opinion .el-input__icon{
+  line-height: 35px !important;
+}
+.opinion_select .el-input__suffix-inner{
+  border-left: 1px solid #dcdfe6;
+}
+.opinion_select .el-input-group__prepend{
+  background-color: #fff !important;
+  border: 1px solid #dcdfe6;
+}
+
+.opinion_qq p{
+  margin-bottom: 10px;
+}
+
+.opinion_ue{
+  margin-bottom: 20px;
+}
+
+.opinion_ue .ql-editor{
+  min-height: 300px;
+}
+
+
+.opinion_qq{
+  margin-bottom: 15px;
+}
+
+
+.opinion_btn button{
+  width: 80px;
+  height: 35px;
+  border: none;
+  background-color: #15bafe;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}

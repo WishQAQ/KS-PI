@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+      <meta http-equiv="X-UA-Compatible" content="IE=11">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosanstc.css">-->
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_837870_ccags35jhq.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/cityTemplate.js"></script>
+    <!--layDate-->
+    <script src="/static/js/laydate/laydate.js"></script>
+
+    <!--<script src="http://test.kslab.com/js/rabbitmq/stomp.js"></script>
+    <script src="http://test.kslab.com/js/rabbitmq/sockjs-0.3.js"></script>
+    <script src="http://test.kslab.com/js/jquery/jquery-1.9.1.min.js"></script>-->
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8
+"></script>
+    <script>
+      window.localStorage.setItem('outIp',JSON.stringify({ip:returnCitySN.cip}))
+    </script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fDe1wpkyMGy4sgANyqY46y1RdBG8rkmX"></script>
+      <title>kslab</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Kslab web前端团队开发 版本号：1.0.0 -->
+  </body>
+
+</html>

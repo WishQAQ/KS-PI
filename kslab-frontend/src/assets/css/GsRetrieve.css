@@ -1,0 +1,451 @@
+.UserForm{
+	width: 100%;
+}
+.BackImg{
+	width: 523px;
+	padding-bottom: 20px;
+	background-color:rgba(0,0,0,0.5);
+	margin: 0 auto;
+	text-align: center;
+	padding-top:22px;
+	position: relative;
+	top:13%;
+}
+.title_logo{
+	width: 100%;
+	text-align: center;
+}
+.title_logo span{
+	font-size:22px;
+	color:#FFF;
+	margin-left:10px;
+}
+.title_logo img{
+	position: relative;
+	top:4px;
+}
+.User_Input{
+	width: 65%;
+	border-bottom: 1px solid #9c9c9c;
+	margin:0 auto;
+	position: relative;
+	text-align: left;
+	margin-top: 25px;
+  margin-bottom: 10px;
+}
+.User_Input input{
+	position: relative;
+	top:-5px;
+	padding:5px;
+	background-color:transparent;
+	border:1px solid transparent;
+	color:#9c9c9c;
+}
+.Fuc-Code{
+	width: 100%;
+	width: 65%;
+	margin:0 auto;
+	color:#9c9c9c;
+	font-size:14px;
+	text-align: left;
+	margin-top: 15px;
+}
+.rea_Code{
+	width: 130px;
+	border-radius: 5px;
+	padding:7px;
+	background-color:#101215;
+	border:2px solid #45494c;
+	margin-top: 5px;
+	float: left;
+	margin-right:10px;
+}
+.Code_div{
+	width: 80px !important;
+	width: auto;
+	float: left;
+	margin-top: 4px;
+	margin-left:10px;
+}
+.btn_submit{
+	float: right;
+	padding:7px 25px 7px 25px;
+	background-color: #15bafe;
+	border-radius: 5px;
+	color:#FFF;
+	border:1px solid #15bafe;
+	margin-top: 4px;
+}
+.Thirdparty{
+	width: 65%;
+	margin:0 auto;
+	margin-top: 15px;
+	margin-bottom:15px;
+}
+.Thirdparty ul{
+	display: flex;
+	padding-left: 95px;
+}
+.Thirdparty ul li{
+	width: 21%;
+	text-align:center;
+	margin-top: 10px;
+}
+.Login_Thirdparty{
+	width: 65%;
+	margin:0 auto;
+}
+.Login_Thirdparty ul{
+	display: flex;
+	/*padding-left: 95px;*/
+}
+.Login_Thirdparty ul li{
+	width: 50%;
+	color:#9c9c9c;
+	font-size:12px;
+	text-align:center;
+	margin-top: 10px;
+}
+/*----------------RetrieveCont---------------------*/
+.RetrieveCont{
+	width: 95%;
+	margin:0 auto;
+	text-align: left;
+	position: relative;
+	top:-10px;
+}
+.RetrieveCont span{
+	position: relative;
+	top:-2px;
+	color:#9c9c9c;
+}
+.Code_input{
+	margin-left: 20px;
+}
+#Iphone{
+	margin-left: 25px !important;
+}
+.RetrieveCont_title{
+	text-align: left;
+	width: 75%;
+	border-left:5px solid #15bafe;
+	margin:0 auto;
+	color:#FFF;
+	font-size:20px;
+}
+.RetrieveCont_title span{
+	margin-left:15px;
+}
+.RetrieveCont_Input{
+	width: 75%;
+	margin:0 auto;
+	text-align: left;
+}
+.input_user{
+	width:380px !important;
+	color:#FFF;
+	height:40px;
+	padding:7px;
+	background-color:rgba(14,16,19,0.8);
+	border:1px solid #6b6d6f;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.Code{
+	width:160px !important;
+	float: left;
+}
+.Block_btn{
+	padding: 10px;
+	background-color: #000;
+	color:#FFF;
+	border:1px solid #000;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left:15px;
+}
+.RetrieveCont_Submin{
+	width: 75%;
+	margin: 0 auto;
+	margin-top:40px;
+	text-align: right;
+}
+.Fuc-NoneBtn{
+	border:1px solid #15bafe;
+	padding: 5px;
+	background-color:rgba(14,16,19,0.8);
+	color:#FFF;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+}
+.Fuc-Form-submit{
+	background-color: #15bafe;
+	margin-left:25px;
+}
+.ContIname div{
+	font-size:13px;
+	color:red;
+	margin-top: 10px;
+}
+.ContIname_cont div{
+	font-size:13px;
+	color:red;
+	margin-left: 40px;
+	position: relative;
+	top:10px;
+
+}
+.ContTop{
+	top:10% !important;
+}
+/*-----------*/
+#Contsc{
+	border:1px solid #15bafe;
+	padding: 5px;
+	color:#FFF;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: #15bafe;
+	margin-left:25px;
+}
+.backNone{
+	background-color:rgba(0,0,0,0.8);
+}
+.NewPasswrod_title{
+	position: relative;
+	top:20px;
+}
+#Fuc-NewPasswrod{
+	border:1px solid #15bafe;
+	padding: 5px;
+	background-color:rgba(14,16,19,0.8);
+	color:#FFF;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: #15bafe !important;
+	margin-left:25px;
+}
+.Logo_left{
+	float: left;
+	margin-top:42px;
+}
+.contPass_input,.passwrod_input,.email_input,.templa_input,.Name_input{
+	width: 300px !important;
+	margin-left:20px;
+}
+#ContIdPassd{
+	margin-top: 20px;
+}
+.sibs_img{
+	width: 25px;
+}
+/*---------公司注册----------*/
+.retrieve_box{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.BodyBack{
+	width: 100%;
+  height: 100%;
+}
+.bodyBack_bg{
+  background:url(/static/img/gszc.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 770px;
+  position: absolute;
+  top: 50%;
+  margin-top: -385px;
+}
+.Company{
+	width: 690px;
+	height: 500px;
+	background-color:#FFF;
+  position: absolute;
+  top: 50%;
+  left: 60rem;
+  margin-top: -250px;
+  box-shadow: 0px 2px 5px 0px
+  rgba(34, 24, 21, 0.16);
+	overflow: auto;
+}
+.Form_Company{
+	width: 100%;
+}
+.Title_Company{
+	width:100%;
+	padding:5px;
+	padding: 15px 0 0 17px;
+}
+.Title_Company img{
+	position: relative;
+	top:2.3px;
+}
+.Title_Company span{
+	color:#9c9c9c;
+}
+.Title_Company_two{
+	width:100%;
+	padding-left: 55px;
+	margin-top:35px;
+}
+.Title_Company_two div{
+	text-align: center;
+	font-size:22px;
+	width: 115px;
+  display: flex;
+  align-items: center;
+}
+.Title_Company_two div span{
+  border-left:5px solid #15bafe;
+  width: 5px;
+  height: 20px;
+  display: block;
+  margin-right: 5px;
+}
+
+
+.Title_Company_tree{
+  display: inline-block;
+	margin-top: 5px;
+  border-right: 1px dashed #f2f2f2;
+  margin-right: 20px;
+}
+.User_input{
+	width: 230px;
+	border:1px solid #dfdfdf;
+	border-radius: 5px;
+	margin-left: 5px;
+  height: 36px;
+  padding-left: 10px;
+}
+.Float_input{
+  display: flex;
+  align-items: center;
+	margin-right:20px;
+}
+.Float_input:not(:last-child){
+  margin-bottom: 12px;
+}
+.Float_input div{
+	width: 50px;
+	text-align: center;
+}
+.Fuc-img-matop{
+	position: relative;
+	top:5px;
+}
+.Width_input{
+	width: 100%;
+}
+.Width_input input{
+	width: 84% !important;
+}
+.Hr_cont{
+	width: 80%;
+	border:1px dashed #eeeeee;
+	margin:0 auto;
+	margin-top:20px;
+}
+.GonClass{
+	width: 81%;
+	margin:0 auto !important;
+}
+.Odiv_Ue{
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.Odiv_Ue span{
+	color:#9c9c9c;
+}
+#edui2{
+	background-color:#f0f0f0 !important;
+}
+.edui-editor-toolbarboxinner{
+	background-color:#f0f0f0 !important;
+}
+.Fuc-Div-title{
+	width: 260px;
+  display: inline-block;
+}
+.Fuc-Img-cont{
+	width: 100%;
+}
+.Fuc-Img-cont span{
+	position: relative;
+	top:3.5px;
+	color:#9c9c9c;
+}
+.Fuc-Img-cont img{
+	position: relative;
+	top:7px;
+}
+.Fuc-gs-cont{
+	width:230px;
+	float:right;
+}
+.Fuc-gs-cont span{
+	color:#9C9C9C;
+}
+.Fuc-gs-cont img{
+	position: relative;
+	top:2.8px;
+}
+
+.wechat_div{
+	width: 81%;
+	margin:0 auto;
+	margin-top:10px;
+}
+.wechat_div span{
+	color:#ababab;
+	margin-top:10px;
+}
+.cs_log{
+	float: left;
+	position: relative;
+	top:14px;
+	margin-right: 5px;
+}
+.wechat_div ul{
+	float: left;
+}
+.wechat_div ul li{
+	text-align: center;
+	color:#9c9c9c;
+	font-size:12px;
+	float: left;
+	margin-right: 15px;
+}
+
+
+/*按钮*/
+.retrieve_btm{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+  padding-right: 40px;
+}
+
+.retrieve_btm>div{
+  width: 80px;
+  height: 35px;
+  border: 1px solid #15bafe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #15bafe;
+  cursor: pointer;
+}
+.retrieve_btm>div:last-child{
+  color: #fff !important;
+  background-color: #15bafe;
+  margin-left: 20px;
+}

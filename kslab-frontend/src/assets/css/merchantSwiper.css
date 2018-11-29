@@ -1,0 +1,129 @@
+.merchantHP_mall{
+  overflow: hidden;
+}
+.merchantHP_mall_swiper_box{
+  padding-left: 2px;
+  position: relative;
+}
+/*公司商城轮播图*/
+.merchantHP_mall .swiper-container{
+  overflow: unset !important;
+}
+
+
+/*轮播按钮*/
+.merchantHP_mall .swiper-button-prev{
+  left: 92% !important;
+}
+
+.merchantHP_mall .swiper-button-prev,
+.merchantHP_mall .swiper-button-next{
+  top: 0 !important;
+  margin-top: -60px !important;
+  background: none !important;
+  width: 30px !important;
+  height: 30px !important;
+  border: 1px solid #e1e1e1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #15bafe;
+}
+.merchantHP_mall .swiper-button-prev:hover,
+.merchantHP_mall .swiper-button-next:hover{
+  color: #fff !important;
+  background: #15bafe !important;
+  border-color: #15bafe !important;
+}
+.merchantHP_mall .swiper-button-next {
+  transform: rotate(180deg);
+}
+
+
+/*商品样式*/
+.merchantHP_mall_box{
+  border: 1px solid #a0a0a0;
+  margin-left: -1px;
+  padding: 15px;
+  overflow: hidden;
+}
+/*图片*/
+.merchantHP_mall_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.merchantHP_mall_img img{
+  width: 100%;
+}
+
+
+/*价格*/
+.merchantHP_mall_money{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.merchantHP_mall_money>div{
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  color: #15bafe;
+  font-weight: bold;
+}
+.merchantHP_mall_money>div span{
+  font-size: 14px;
+  position: relative;
+  top: -3px;
+}
+.merchantHP_mall_money>p{
+  font-size: 12px;
+  color: #a0a0a0;
+}
+
+
+/*商品名称*/
+.merchantHP_mall_name{
+  word-wrap: break-word;
+  font-size: 14px;
+  color: #000;
+  line-height: 18px;
+}
+
+/*商品编号*/
+.merchantHP_mall_nbm{
+  font-size: 12px;
+  color: #a0a0a0;
+  margin-bottom: 5px;
+}
+
+
+/*商家及评分*/
+.merchantHP_mall_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*商铺名称*/
+.merchantHP_mall_merchant{
+  display: flex;
+}
+.merchantHP_mall_merchant p{
+  font-size: 12px;
+  color: #a0a0a0;
+  text-decoration: underline;
+}
+.merchantHP_mall_merchant i{
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+/*评分*/
+.merchantHP_mall_rate .el-rate__icon{
+  font-size: 16px !important;
+  margin-right: 2px !important;
+}

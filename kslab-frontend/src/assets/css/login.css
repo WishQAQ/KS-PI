@@ -1,0 +1,145 @@
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+}
+a:link {
+ font-size: 12px;
+ color: #bfbfbf;
+ text-decoration: none;
+}
+a:visited {
+ font-size: 12px;
+ color: #bfbfbf;
+ text-decoration: none;
+}
+a:hover {
+ font-size: 12px;
+ color: #bfbfbf;
+ text-decoration: none;
+}
+.float{
+  clear: both;
+}
+.UserForm{
+  width: 100%;
+}
+.BackImg{
+    width: 523px;
+    text-align: center;
+}
+.title_logo{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_logo a{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_logo span{
+  font-size:22px;
+  color:#FFF;
+  margin-left:10px;
+}
+.title_logo .icon{
+  color: #15a9fe;
+  font-size: 33px;
+}
+/*.User_Input{*/
+  /*width: 65%;*/
+  /*border-bottom: 1px solid #9c9c9c;*/
+  /*margin:0 auto;*/
+  /*position: relative;*/
+  /*text-align: left;*/
+  /*margin-top: 25px;*/
+/*}*/
+/*.User_Input input{*/
+  /*position: relative;*/
+  /*top:-5px;*/
+  /*padding:5px;*/
+  /*background-color:transparent;*/
+  /*border:1px solid transparent;*/
+  /*color:#9c9c9c;*/
+/*}*/
+.Fuc-Code{
+  width: 65%;
+  margin:0 auto;
+  color:#9c9c9c;
+  font-size:14px;
+  text-align: left;
+  margin-top: 30px;
+}
+.rea_Code{
+  width: 130px;
+  border-radius: 5px;
+  padding:7px;
+  background-color:#101215;
+  border:2px solid #45494c;
+  margin-top: 8px;
+  float: left;
+  margin-right:10px;
+  color:#FFF;
+}
+.Code_div{
+  width: 100px !important;
+  margin-top: 7px;
+  margin-left:10px;
+}
+.Code_div img{
+  width: 100%;
+  height: 33px;
+}
+.btn_submit{
+  padding:7px 25px 7px 25px;
+  background-color: #15bafe;
+  border-radius: 5px;
+  color:#FFF;
+  border:1px solid #15bafe;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.Thirdparty{
+  width: 65%;
+  margin:0 auto;
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+.Thirdparty ul{
+  display: flex;
+  padding-left: 95px;
+}
+.Thirdparty ul li{
+  width: 21%;
+  text-align:center;
+  margin-top: 10px;
+}
+.Login_Thirdparty{
+  width: 65%;
+  margin:0 auto;
+}
+.Login_Thirdparty ul{
+  display: flex;
+  /*padding-left: 95px;*/
+}
+.Login_Thirdparty ul li{
+  width: 50%;
+  color:#9c9c9c;
+  font-size:12px;
+  text-align:center;
+  margin-top: 10px;
+}
+.ContDivLogin{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,57 @@
+/*底部*/
+.footer{
+    background-color: #37313f;
+    overflow: hidden;
+    padding: 35px 0 50px 0;
+    margin-top: 70px;
+}
+.footer a{
+    color:#fff;
+}
+
+.footer_top{
+    padding-bottom: 20px;
+}
+
+.footer_top ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_top ul li{
+    font-size: 20px;
+    color: #fff;
+    flex: 1;
+    text-align: center;
+}
+
+.footer_line{
+    width: 1700px;
+    height: 1px;
+    background-color: #9283a7;
+}
+
+.footer_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.footer_link div{
+    width: 33px;
+    margin: 0 35px;
+}
+
+
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+.footer_logo div:last-child{
+    width: 80px;
+    margin-left: 20px;
+}

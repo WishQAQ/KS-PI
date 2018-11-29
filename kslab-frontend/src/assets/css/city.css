@@ -1,0 +1,15 @@
+
+#destination { background: url(/static/img/icon/sui.png) no-repeat 96% center; }
+
+#in_city { background: #ddd; position: absolute; z-index: 999;border: solid 1px #d7d7d7; background: #fff;padding-bottom: 6px; }
+.screen { overflow: hidden; }
+.screen a { float: left; color: #00b8ff; padding: 1px 12.6px; text-align: center; border-bottom: solid 1px #00b8ff; }
+.screen a:hover { color: #00b8ff; }
+.screen .shar { color: #404040; border: solid 1px #00b8ff; border-bottom: none; }
+.city_a_le1 { padding: 10px; overflow: hidden; }
+.city_a_le1 a { float: left; width: 20%; margin: 2px 0; }
+.Letter span { width: 12%; float: left; text-align: center; padding: 2px 0; }
+.Letter div { width: 88%; float: left; }
+.city_a_le1 a:hover { color: #00b8ff; }
+.Letter div a { width: 25%; }
+#in_city h1 { padding: 10px 0; color: #ababab; text-indent: 3%; }

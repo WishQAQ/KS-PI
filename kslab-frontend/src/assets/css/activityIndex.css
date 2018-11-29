@@ -1,0 +1,260 @@
+/*主体内容*/
+.activityIndex{
+  overflow: hidden;
+}
+.activityIndex_main{
+  margin: 0 auto 30px auto;
+  max-width: 1200px;
+  min-width: 960px;
+}
+@media screen and (max-width: 1240px) {
+  .activityIndex_main{
+    padding: 0 40px;
+  }
+}
+
+  /*标题*/
+.activity_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.activity_title_left{
+  display: flex;
+  align-items: center;
+}
+.activity_title_left img{
+  width: 20px;
+  margin-right: 10px;
+}
+.activity_title_left p{
+  font-size: 26px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.activity_title_left p span{
+  font-size: 25px;
+  font-style: italic;
+  color: #e5e5e5;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.activity_title_left p span i{
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background-color: #e5e5e5;
+  transform: rotate(15deg);
+  margin-right: 10px;
+}
+
+
+/*banner内容*/
+
+.activity_main_banner{
+  height: 400px;
+  position: relative;
+  opacity: 0;
+  animation: banner 1s forwards;
+}
+
+@keyframes banner{
+  0%{
+    opacity: 0;
+  }
+  35%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.activity_main_banner_box{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  border: 1px solid #dcdcdc;
+}
+
+.banner_box_img{
+  width: 530px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+.carousel_video{
+  width: 100%;
+  object-fit: fill;
+}
+
+.banner_box_img img{
+  width: 100%;
+  transition: all .3s;
+}
+.banner_box_img:hover img{
+  transform:scale(1.2);
+  transition: all .3s;
+}
+/*.banner_box_img video{
+  width: 100%;
+  transition: all .3s;
+}
+.banner_box_img:hover video{
+  transform:scale(1.2);
+  transition: all .3s;
+}*/
+
+.banner_box_time{
+  width: 75px;
+  height: 75px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  left: -32px;
+  background-color: #15bafe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+.banner_box_text{
+  flex: 1;
+  width: 600px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+
+.banner_box_text_time{
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.banner_box_text_title{
+  font-size: 26px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.banner_box_text_center{
+  font-size: 16px;
+  color: #666;
+  height: 141px;
+  overflow: hidden;
+}
+
+
+.banner_box_text_bottom{
+  margin-top: 30px;
+}
+
+.banner_box_text_bottom_money{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+}
+
+.banner_box_text_bottom_money>p{
+  font-size: 50px;
+  color: #15bafe;
+  font-weight: bold;
+}
+.banner_box_text_bottom_money>p span{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
+
+.banner_box_text_bottom_tags{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfbfbf;
+  margin-right: 30px;
+}
+
+
+.banner_box_text_bottom_tags>p{
+  display: flex;
+  align-items: center;
+}
+
+.banner_box_text_bottom_tags>p span{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_box_text_bottom_tags>p span img{
+  margin-right: 5px;
+}
+
+
+
+
+.activity_main_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+
+/*960px布局*/
+@media screen and (max-width: 1240px){
+  /*轮播图*/
+  .activity_main_banner{
+    height: 310px;
+  }
+  .activity_main_banner_box{
+    height: 308px;
+  }
+  .banner_box_img{
+    width: 410px;
+    height: 308px;
+  }
+  .banner_box_text{
+    width: 390px;
+    cursor: pointer;
+  }
+  .banner_box_text_title{
+    font-size: 16px;
+  }
+
+  .banner_box_time{
+    width: 38px;
+    height: 38px;
+    border: 3px solid #fff;
+    left: -15px;
+    font-size: 14px;
+  }
+
+  .banner_box_text_center{
+    height: 75px;
+  }
+
+  .banner_box_text_bottom_money>p{
+    font-size:24px;
+  }
+}
+

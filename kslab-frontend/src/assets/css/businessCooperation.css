@@ -1,0 +1,163 @@
+.bc_title{
+  text-align: center;
+  max-width: 1200px;
+  min-width: 980px;
+  margin: 40px auto 20px auto;
+}
+.bc_title p{
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+  letter-spacing: 1em;
+}
+.bc_title h2{
+  font-size: 50px;
+  color: #15bafe;
+  text-transform: uppercase;
+}
+
+
+.bc_header{
+  /*background: url("/static/img/footer_header.png") no-repeat;*/
+  /*background-size: contain;*/
+  height: 700px;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: flex-end;*/
+  overflow: hidden;
+}
+
+.bc_header_box{
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 1px 1px 5px 2px rgba(34,24,21,.16);
+  position: relative;
+  top: 90px;
+
+}
+
+.bc_header_box .bc_header_line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+  position: relative;
+  top: -20px;
+  margin-bottom: 20px;
+}
+.bc_header_box .bc_header_line span{
+  width: 28px;
+  height: 1px;
+  display: block;
+}
+.bc_header_box .bc_header_line span:nth-child(1){
+  background-color: #fff;
+}
+.bc_header_box .bc_header_line span:nth-child(2){
+  background-color: #15bafe;
+}
+
+
+.bc_header_logo{
+  width: 140px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.bc_header_logo img{
+  width: 100%;
+}
+
+.bc_header_title{
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.bc_header_text{
+  width: 510px;
+  font-size: 14px;
+  color: #999;
+}
+
+
+
+
+.bc_contact{
+  width: 600px;
+  margin: 40px auto 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bc_contact>div{
+  width: 210px;
+}
+
+.bc_contact>div>p{
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.bc_contact .el-input__inner{
+  height: 30px !important;
+}
+.bc_contact .el-input-group__prepend{
+  background-color: #fff !important;
+  padding: 0 10px !important;
+}
+
+
+
+/*富文本*/
+.bc_ue{
+  width: 600px;
+  margin: 0 auto 25px auto;
+}
+.bc_ue>p{
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.bc_ue .ql-editor{
+  min-height: 300px;
+}
+
+
+/*上传附件*/
+.bc_upload{
+  width: 600px;
+  margin: 0 auto 25px auto;
+}
+.bc_upload>p{
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 5px;
+}
+.bc_upload>p span{
+  font-size: 12px;
+  color: #222;
+}
+
+
+/*提交按钮*/
+.bc_btn{
+  width: 600px;
+  margin: 0 auto;
+}
+.bc_btn button{
+  cursor: pointer;
+  display: block;
+  width: 60px;
+  height: 27px;
+  border: none;
+  background-color: #15bafe;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 0 0 auto;
+}

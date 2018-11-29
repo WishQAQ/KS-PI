@@ -1,0 +1,233 @@
+.problemIndex_title{
+  border: 1px dashed #d9d9d9;
+  padding: 25px 15px 5px 15px;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.problemIndex_title_list{
+  width: 137px;
+  height: 137px;
+  text-align: center;
+  padding: 15px;
+  margin: 4px;
+  transition: all .3s;
+}
+.problemIndex_title_list.active{
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
+}
+.problemIndex_title_list.active .problemIndex_title_icon i{
+  color: #15bafe;
+}
+.problemIndex_title_list.active .problemIndex_title_text{
+  opacity: 1
+}
+
+.problemIndex_title_list:hover{
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
+}
+.problemIndex_title_list:hover .problemIndex_title_icon i{
+  color: #15bafe;
+}
+.problemIndex_title_list:hover .problemIndex_title_text {
+  opacity: 1;
+}
+
+.problemIndex_title_icon{
+  height: 60px;
+}
+.problemIndex_title_icon i{
+  font-size: 40px;
+  color: #d9d9d9;
+  transition: all .3s;
+}
+.problemIndex_title_list h2{
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  margin: 2px 0 3px 0;
+}
+
+.problemIndex_title_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #6e6e6e;
+  opacity: 0;
+  transition: all .3s;
+}
+.problemIndex_title_text p{
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+.problemIndex_title_text p i{
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+
+
+
+
+.problemIndex_main{
+  margin-top: 30px;
+}
+/*列表标题*/
+.problemIndex_main_title{
+  display: flex;
+  align-items: center;
+}
+.problemIndex_main_title p{
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #000;
+  height: 25px;
+}
+.problemIndex_main_title p span{
+  width: 8px;
+  height: 25px;
+  margin-right: 5px;
+  background-color: #15bafe;
+  display: block;
+}
+.problemIndex_main_title>span{
+  margin-left: 10px;
+  color: #e4e4e4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.problemIndex_main_box{
+  position: relative;
+  top: -30px;
+}
+.problemIndex_main_box .el-tabs__nav{
+  float: right !important;
+}
+.problemIndex_main_box .el-tabs__header{
+  margin: 0 !important;
+}
+
+
+
+
+/*tab分页列表*/
+.problemIndex_tab_list{
+  border-bottom: 1px dashed #f2f2f2;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.problemIndex_tab_list:hover{
+  background-color: #f5f5f5;
+}
+
+
+.problemIndex_tab_list:last-child .problemIndex_list_box{
+  border-bottom: none;
+}
+
+
+.problemIndex_list_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 28px;
+  border-left: 8px solid transparent;
+  transition: all .3s;
+}
+.problemIndex_tab_list:hover .problemIndex_list_box{
+  border-left:8px solid #15bafe;
+
+}
+
+/*左侧数据*/
+.problemIndex_list_data{
+  width: 65px;
+  margin-right: 40px;
+  color: #aeaeae;
+  font-size: 12px;
+}
+
+.problemIndex_list_data>p{
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.problemIndex_list_data>p:last-child{
+  border-bottom: none;
+}
+
+.problemIndex_tab_list:hover .problemIndex_list_data i{
+  color: #15bafe;
+}
+.problemIndex_list_data i{
+  font-size: 16px;
+  width: 30px;
+  text-align: center;
+}
+
+.problemIndex_list_text{
+  width: 1000px;
+}
+
+
+/*标题*/
+.problemIndex_list_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.problemIndex_list_title h4{
+  width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #000;
+}
+.problemIndex_list_title p{
+  font-size: 12px;
+  color: #898989;
+}
+
+
+/*文本*/
+.problemIndex_list_main{
+  width: 600px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #898989;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+/*tags\time*/
+.problemIndex_list_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.problemIndex_list_tags{
+  display: flex;
+  align-items: center;
+}
+.problemIndex_list_tags span{
+  margin: 0 5px;
+}
+
+.problemIndex_list_bottom>p{
+  font-size: 12px;
+  color: #898989;
+}

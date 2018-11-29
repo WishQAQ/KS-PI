@@ -1,0 +1,353 @@
+.problemClass_banner{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.problemClass_banner img{
+  width: 100%;
+  height: 100%;
+}
+
+.problemClass_box{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*左侧*/
+.problemClass_box_left{
+  width: 880px;
+}
+
+/*问题详情*/
+.problemClass_left_main{
+  width: 100%;
+  padding: 20px 25px;
+  background-color: #fff;
+
+}
+
+.problemClass_main_title{
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.problemClass_main_title span{
+  width: 8px;
+  height: 24px;
+  background-color: #15bafe;
+  display: block;
+  margin-right: 10px;
+}
+
+.problemClass_main_title p{
+  font-size: 12px;
+  color: #15bafe;
+}
+
+
+.problemClass_main_text{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+
+/*问题底部*/
+.problemClass_main_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*提问按钮*/
+.problemClass_main_btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #15bafe;
+  color: #fff;
+  font-size: 14px;
+}
+.problemClass_main_btn i{
+  font-size: 18px;
+  margin-right: 3px;
+}
+.problemClass_main_btn span{
+  margin-left: 3px;
+}
+
+/*问题数据*/
+.problemClass_main_right{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #999;
+}
+.problemClass_main_right p{
+  margin: 0 10px;
+}
+
+.problemClass_main_right p span{
+  margin: 0 3px;
+}
+
+
+
+/*tab分页*/
+.problemClass_left_tab{
+  background-color: #fff;
+  margin-top: 15px;
+}
+
+/*分页按钮*/
+.problemClass_left_tab .el-tabs__header{
+  margin: 0 !important;
+}
+.problemClass_left_tab .el-tabs__nav-scroll{
+  padding-left: 20px;
+}
+
+
+/*tab分页列表*/
+.problemClass_tab_list{
+  border-bottom: 1px dashed #f2f2f2;
+  padding-top: 20px;
+}
+.problemClass_tab_list:hover{
+  background-color: #f5f5f5;
+}
+
+
+.problemClass_tab_list:last-child .problemClass_list_box{
+  border-bottom: none;
+}
+
+
+.problemClass_list_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 825px;
+  margin-bottom: 20px;
+  padding: 0 28px;
+  border-left: 10px solid transparent;
+  transition: all .3s;
+}
+.problemClass_tab_list:hover .problemClass_list_box{
+  border-left:10px solid #15bafe;
+
+}
+
+/*左侧数据*/
+.problemClass_list_data{
+  width: 65px;
+  margin-right: 40px;
+  color: #aeaeae;
+  font-size: 12px;
+}
+
+.problemClass_list_data>p{
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.problemClass_list_data>p:last-child{
+  border-bottom: none;
+}
+
+.problemClass_tab_list:hover .problemClass_list_data i{
+  color: #15bafe;
+}
+.problemClass_list_data i{
+  font-size: 16px;
+  width: 30px;
+  text-align: center;
+}
+
+.problemClass_list_text{
+  width: 670px;
+}
+
+
+/*标题*/
+.problemClass_list_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.problemClass_list_title h4{
+  width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #000;
+}
+.problemClass_list_title p{
+  font-size: 12px;
+  color: #898989;
+}
+
+
+/*文本*/
+.problemClass_list_main{
+  width: 430px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #898989;
+  height: 35px;
+  overflow: hidden;
+}
+
+
+/*tags\time*/
+.problemClass_list_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.problemClass_list_tags{
+  display: flex;
+  align-items: center;
+}
+.problemClass_list_tags span{
+  margin: 0 5px;
+}
+
+.problemClass_list_bottom>p{
+  font-size: 12px;
+  color: #898989;
+}
+
+
+
+
+/*右侧排行榜*/
+.problemClass_box_right{
+  width: 305px;
+  height: 735px;
+  background-color: #fff;
+}
+.problemClass_right_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.problemClass_right_title p{
+  font-size: 28px;
+  color: #15bafe;
+  margin-left: 5px;
+}
+.problemClass_right_title span{
+  font-size: 14px;
+  color: #222;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+/*排行榜列表*/
+.problemClass_right_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.problemClass_right_list:last-child{
+  border-bottom: none;
+}
+
+/*前三名*/
+.problemClass_level p{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #222;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+.problemClass_right_list:nth-child(1) .problemClass_level p,
+.problemClass_right_list:nth-child(2) .problemClass_level p,
+.problemClass_right_list:nth-child(3) .problemClass_level p{
+  color: transparent !important;
+  width: 25px;
+  height: 33px;
+  border-radius: unset;
+  background-size: contain;
+}
+.problemClass_right_list:nth-child(1) .problemClass_level p{
+  background: url("../../../static/img/icon/level_1.png") no-repeat;
+}
+.problemClass_right_list:nth-child(2) .problemClass_level p{
+  background: url("../../../static/img/icon/level_2.png") no-repeat;
+}
+.problemClass_right_list:nth-child(3) .problemClass_level p{
+  background: url("../../../static/img/icon/level_3.png") no-repeat;
+}
+
+.problemClass_right_list:nth-child(1) .problemClass_userName span,
+.problemClass_right_list:nth-child(1) .problemClass_lift,
+.problemClass_right_list:nth-child(2) .problemClass_userName span,
+.problemClass_right_list:nth-child(2) .problemClass_lift,
+.problemClass_right_list:nth-child(3) .problemClass_userName span,
+.problemClass_right_list:nth-child(3) .problemClass_lift{
+  color: #15bafe;
+}
+
+
+
+
+/*用户*/
+.problemClass_userName{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.problemClass_userName p{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.problemClass_userName p img{
+  width: 100%;
+}
+
+.problemClass_userName span{
+  width: 100px;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 14px;
+  color: #222;
+}
+
+
+
+/*状态*/
+.problemClass_lift{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+}

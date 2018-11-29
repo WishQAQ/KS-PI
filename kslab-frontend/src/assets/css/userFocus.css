@@ -1,0 +1,208 @@
+
+.focus_bg{
+  display: flex;
+  justify-content: space-between;
+}
+/*边框背景*/
+.focus{
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 2px rgba(34,24,21,.16);
+  width: 900px;
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .focus{
+    width: 660px;
+  }
+  .focus_box_right .texting{
+    width: 82px;
+  }
+  .focus_box_right .unsubscribe{
+    width: 85px;
+  }
+}
+
+.focus_header{
+  margin: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 5px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/*标题*/
+.focus_title{
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.focus_title span{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+}
+.focus_title span img{
+  width: 100%;
+  display: block;
+}
+
+
+
+/*列表盒子*/
+.focus_box{
+  padding: 0 50px;
+}
+
+.focus_box ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+.focus_box ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+
+
+.focus_box_left{
+  display: flex;
+  align-items: center;
+}
+.focus_box_avatar{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  margin-right: 15px;
+}
+.focus_box_avatar img{
+  position: absolute;
+  width: 55px;
+  left: 50%;
+  top: 50%;
+  margin-left: -27.5px;
+  margin-top: -27.5px;
+}
+
+
+.focus_box_avatar_text h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.focus_box_avatar_text p{
+  font-size: 14px;
+  color: #637081;
+  display: inline-block;
+}
+
+
+.focus_box_center{
+  font-size: 14px;
+  color: #989898;
+  width: 330px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.focus_box_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focus_box_right div{
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.focus_box_right .texting{
+  color: #15bafe;
+  font-size: 14px;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 1px solid #15bafe;
+  padding: 0 10px;
+}
+.focus_box_right .texting i{
+  color: #15bafe;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+
+.focus_box_bottom{
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.focus_box_right .unsubscribe{
+  font-size: 14px;
+  color: #bdbdbd;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 0 5px;
+}
+.focus_box_right .unsubscribe i{
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+  color: #ccc;
+}
+
+
+
+
+
+
+/*右侧盒子*/
+.focus_right{
+  width: 290px;
+  height: 90px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 2px rgba(34,24,21,.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.focus_right div{
+  width: 145px;
+  text-align: center;
+  height: 100%;
+  padding: 22px 0;
+}
+.focus_right div:last-child{
+  border-left: 1px solid #dee4e8;
+}
+
+.focus_right div p{
+  font-size: 14px;
+  color: #637081;
+}
+.focus_right div span{
+  font-size: 20px;
+  color: #000;
+}
+
+
+
+/*分页器*/
+.box_page ul{
+  margin: auto !important;
+}

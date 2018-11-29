@@ -1,0 +1,31 @@
+.mod_head{
+    background:#37313f;
+    width:100%;
+    height:40px;
+    line-height:40px;
+}
+.mod_head_logo{
+    display:inline-block;
+}
+.mod_logo_link{
+    display:inline-block;
+    margin-left:40px;
+    line-height:40px;
+}
+.mod_logo_link img{
+    display:inline-block;
+    line-height:40px;
+}
+.mod_search{
+    display:inline-block;
+    width:400px;
+    height:20px;
+    border-radius:50%;
+}
+.mod_search .mod_search_txt{
+    display:inline-block;
+    width:340px;
+    height:20px;
+    border:none;
+    background:#000;
+}

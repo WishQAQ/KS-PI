@@ -1,0 +1,321 @@
+.userBargain{
+  position: relative;
+}
+
+
+/*tab页样式*/
+.userBargain .el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
+  background-color: #fff;
+  font-size: 14px;
+  color: #222;
+}
+.userBargain .el-tabs__item{
+  font-size: 14px;
+  color: #9f9f9f;
+  background-color: #ededed;
+}
+.userBargain .el-tabs__header{
+  margin-bottom: 0 !important;
+}
+.userBargain .el-tabs__content{
+  background-color: #fff;
+  padding: 25px;
+}
+
+
+
+
+/*标题栏*/
+.userBargain_title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #25a2f5;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 16px;
+  color: #fff;
+  height: 50px;
+  overflow: hidden;
+}
+
+.userBargain_title input{
+  border: none;
+  height: 50px;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: transparent !important;
+  text-align: center;
+}
+
+.userBargain_title ::placeholder{
+  color: #fff !important;
+}
+
+.userBargain_title .el-select .el-input .el-select__caret{
+  color: #fff !important;
+}
+
+
+.userBargain_title>div:nth-child(1){
+  width: 415px;
+}
+.userBargain_title>div:nth-child(2){
+  width: 118px;
+}
+.userBargain_title>div:nth-child(3){
+  width: 100px;
+}
+.userBargain_title>div:nth-child(4){
+  width: 150px;
+}
+.userBargain_title>div:nth-child(5){
+  width: 115px;
+}
+.userBargain_title>div:nth-child(6){
+  width: 265px;
+}
+
+
+/*淘货商品列表*/
+
+.userBargain_main_list{
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-left: 5px solid #ccc;
+  margin: 20px 0;
+  transition: all .5s;
+}
+.userBargain_main_list:hover{
+  border-left: 5px solid #15bafe;
+  background-color: #fbfbfb;
+}
+.userBargain_main_list>div{
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.userBargain_main_list>div:nth-child(1){
+  display: flex;
+  align-items: center;
+  width: 415px;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.userBargain_list_img{
+  width: 125px;
+  height: 125px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+
+.userBargain_list_text{
+  width: 220px;
+}
+.userBargain_list_text h4{
+  font-size: 18px;
+  color: #222;
+}
+
+.userBargain_list_text p{
+  font-size: 14px;
+  color: #999;
+}
+
+
+.userBargain_main_list>div:nth-child(2){
+  width: 118px;
+}
+.userBargain_main_list>div:nth-child(3){
+  width: 100px;
+}
+.userBargain_main_list>div:nth-child(4){
+  width: 150px;
+}
+.userBargain_main_list>div:nth-child(5){
+  width: 115px;
+}
+.userBargain_main_list>div:nth-child(5) span{
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 15px auto;
+}
+.userBargain_main_list>div:nth-child(5) span img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.userBargain_main_list>div:nth-child(6){
+  width: 265px;
+}
+
+
+/*操作*/
+.userBargain_operating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userBargain_operating>div>div{
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all .3s;
+  text-align: center;
+}
+.userBargain_operating>div span{
+  opacity: 0;
+  white-space:nowrap;
+  position: relative;
+  top: 13px;
+}
+
+
+/*状态图标*/
+
+/*上线*/
+.userBargain_operating_shelf{
+  background: url("/static/img/icon/user_shelf.svg") no-repeat;
+}
+.userBargain_operating_shelf:hover{
+  background: url("/static/img/icon/user_shelf_hover.svg") no-repeat;
+}
+.userBargain_operating_shelf:hover~span{
+  opacity: 1;
+}
+/*下线*/
+.userBargain_operating_obtained{
+  background: url("/static/img/icon/user_obtained.svg") no-repeat;
+}
+.userBargain_operating_obtained:hover{
+  background: url("/static/img/icon/user_obtained_hover.svg") no-repeat;
+}
+.userBargain_operating_obtained:hover~span{
+  opacity: 1;
+}
+
+
+/*查看*/
+.userBargain_operating_evaluation{
+  background: url("/static/img/icon/user_evaluation.svg") no-repeat;
+}
+.userBargain_operating_evaluation:hover{
+  background: url("/static/img/icon/user_evaluation_hover.svg") no-repeat;
+}
+.userBargain_operating_evaluation:hover~span{
+  opacity: 1;
+}
+
+/*修改*/
+.userBargain_operating_modify{
+  background: url("/static/img/icon/user_modify.svg") no-repeat;
+}
+.userBargain_operating_modify:hover{
+  background: url("/static/img/icon/user_modify_hover.svg") no-repeat;
+}
+.userBargain_operating_modify:hover~span{
+  opacity: 1;
+}
+
+/*删除*/
+.userBargain_operating_delete{
+  background: url("/static/img/icon/user_delete.svg") no-repeat;
+}
+.userBargain_operating_delete:hover{
+  background: url("/static/img/icon/user_delete_hover.svg") no-repeat;
+}
+.userBargain_operating_delete:hover~span{
+  opacity: 1;
+}
+
+
+.userBargain_main_bottom{
+  text-align: center;
+}
+
+
+
+
+
+/*订单信息*/
+.userBargain_order{}
+
+/*头部*/
+.userBargain_order_title{
+  background-color: #23a0f4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  padding: 0 45px;
+}
+/*筛选栏*/
+.userBargain_order_filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: #fff;
+}
+
+.userBargain_order_filter_left{
+  display: flex;
+  align-items: center;
+}
+
+.userBargain_order_filter_startDate,
+.userBargain_order_filter_endDate{
+  margin-right: 30px;
+}
+.userBargain_order_filter_startDate>span,
+.userBargain_order_filter_endDate>span{
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+
+.userBargain_order_filter_startDate .el-input__inner,
+.userBargain_order_filter_endDate .el-input__inner{
+  height: 27px !important;
+  line-height: 27px !important;
+  border-radius: 50px !important;
+  border: none !important;
+}
+.userBargain_order_filter_startDate .el-input__icon,
+.userBargain_order_filter_endDate .el-input__icon{
+  line-height: 27px !important;
+}
+.userBargain_order_filter_startDate  .el-date-editor.el-input,
+.userBargain_order_filter_startDate  .el-date-editor.el-input__inner,
+.userBargain_order_filter_endDate  .el-date-editor.el-input,
+.userBargain_order_filter_endDate  .el-date-editor.el-input__inner{
+  width: 170px !important;
+}
+.userBargain_order_filter_startDate .userBargain_order_filter_startDate span,
+.userBargain_order_filter_startDate .userBargain_order_filter_endDate span,
+.userBargain_order_filter_endDate .userBargain_order_filter_startDate span,
+.userBargain_order_filter_endDate .userBargain_order_filter_endDate span{
+  margin-right: 0 !important;
+}
+
+
+
+.userBargain_order_filter_right{}
+.userBargain_order_filter_right span{
+  margin-right: 10px;
+  font-size: 12px;
+}
+.userBargain_order_filter_right input{
+  width: 170px;
+  height: 25px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 10px;
+}

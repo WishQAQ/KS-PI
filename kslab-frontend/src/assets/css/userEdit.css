@@ -1,0 +1,322 @@
+/*返回按钮*/
+.edit_head{
+  margin-bottom: 15px;
+}
+.edit_head a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 35px;
+  border: 1px solid #15bafe;
+  color: #15bafe;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+/*主体内容*/
+.edit_box{
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 2px rgba(34,24,21,.16);
+  padding: 25px;
+}
+
+.edit_title{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+}
+.edit_title .edit_title_cn{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #000;
+  margin-right: 10px;
+}
+.edit_title .edit_title_cn span{
+  display: inline-block;
+  width: 7px;
+  height: 20px;
+  background-color: #15bafe;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+}
+
+.edit_title_en{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #e5e5e5;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+
+
+/*个人资料*/
+.edit_basic{
+  margin-bottom: 100px;
+}
+
+/*头像*/
+.edit_avatar{
+  display: flex;
+  margin-bottom: 25px;
+}
+.edit_box_title{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.edit_box_title span{
+  display: block;
+  width: 30px;
+  height: 16px;
+}
+.edit_box_title span img{
+  height: 100%;
+}
+
+
+.edit_avatar_box{
+  position: relative;
+  cursor: pointer;
+}
+.edit_avatar_box .edit_avatar_box_img{
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.edit_avatar_box .edit_avatar_box_img img{
+  width: 85px;
+}
+
+.edit_avatar_box:hover span{
+  display: block;
+}
+
+.edit_avatar_box>span{
+  display: none;
+  text-align: center;
+  line-height: 85px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+}
+
+
+
+/*昵称*/
+.edit_name{
+  display: flex;
+  margin-bottom: 55px;
+}
+.edit_name_box{
+  font-size: 16px;
+  color: #000;
+}
+.edit_name_box_userName p{
+  color: #000;
+  font-size: 16px;
+}
+.edit_name_box_userName p>span{
+  color: #15bafe;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+}
+.edit_name_box_userName p>span>span{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*input框*/
+.showUserNameInput{
+  position: relative;
+}
+.showUserNameInput_btm{
+  position: absolute;
+  bottom: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.showUserNameInput input{
+  height: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 3px 0 3px 10px;
+  width: auto;
+  font-size: 12px;
+  color: #909090;
+}
+.showUserNameInput_btm>span{
+  overflow: hidden;
+  border-radius: 3px;
+}
+.showUserNameInput_btm>span>span{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #15bafe;
+}
+.showUserNameInput_btm .btm_false{
+  width: 70px;
+  height: 25px;
+  font-size: 14px;
+  color: #15bafe;
+  cursor: pointer;
+}
+.showUserNameInput_btm .btm_true{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 25px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #15bafe;
+  cursor: pointer;
+}
+
+
+/*性别*/
+.edit_sex{
+  display: flex;
+  margin-bottom: 55px;
+}
+
+.edit_sex_box{
+  display: flex;
+  align-items: center;
+}
+.edit_sex_box input{
+  margin: 0 5px 0 0;
+}
+.edit_sex_box label{
+  margin: 0 15px 0 0;
+}
+
+
+/*签名*/
+.edit_introduction{
+  display: flex;
+}
+
+.edit_intro_box input{
+  padding: 5px 0 5px 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #909090;
+  min-width: 500px;
+}
+
+.edit_errors{
+  color: red;
+}
+
+
+
+/*社交账号绑定*/
+.edit_social_main{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.edit_social_name{
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  color: #000;
+  width: 120px;
+}
+
+.edit_social_name img{
+  width: 33px;
+  height: 33px;
+  display: block;
+}
+
+.edit_social_text{
+  margin-left: 15px;
+}
+
+
+/*状态*/
+.edit_social_status{
+  width: 240px;
+  text-align: center;
+}
+.edit_social_status span{
+  margin: 0 10px;
+}
+
+
+.edit_social_modify{
+  display: flex;
+  align-items: center;
+}
+
+.edit_social_modify p{
+  width: 70px;
+  height: 25px;
+  border: 1px solid #15bafe;
+  color: #15bafe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit_social_modify span{
+  cursor: pointer;
+  font-size: 14px;
+  color: #15bafe;
+  cursor: pointer;
+}
+
+
+.userEdit_bottom{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 20px 0 0 auto;
+}
+.userEdit_bottom .userEdit_bottom_btm{
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #15bafe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #15bafe;
+}
+.userEdit_bottom p{
+  background-color: #15bafe;
+  color: #fff !important;
+}

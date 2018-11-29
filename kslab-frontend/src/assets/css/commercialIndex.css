@@ -1,0 +1,744 @@
+.commercialIndex_box{}
+
+.commercialIndex_box_chart{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.commercialIndex_box_chart_fuel{
+  width: 780px;
+  height: 400px;
+  background-color: #3386ab;
+  position: relative;
+  overflow: hidden;
+  flex: none;
+
+}
+.commercialIndex_box_chart_fuel_mask{
+  background: url("/static/img/commercialIndex_chart.png") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/*标题*/
+
+.commercialIndex_box_chart_fuel_mask_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px 8px 40px;
+  color: #fff;
+}
+.commercialIndex_box_chart_fuel_mask_title p{
+  font-size: 30px;
+}
+
+.commercialIndex_box_chart_fuel_mask_title span{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.commercialIndex_box_chart_fuel_mask_title span i{
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  margin-right: 10px;
+  display: block;
+  border-radius: 50%;
+}
+
+
+/*刻度*/
+
+.commercialIndex_box_chart_fuel_mask_line{
+  margin-left: 30px;
+  color: #fff;
+  font-size: 12px;
+  border-left: 1px solid #77cdfb;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+.commercialIndex_box_chart_fuel_mask_line li{
+  margin-bottom: 38px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -4px;
+}
+
+.commercialIndex_box_chart_fuel_mask_line li i{
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  margin-right: 15px;
+}
+
+
+.commercialIndex_box_chart_fuel_schedule_toDay{
+  position: absolute;
+  top: 12px;
+  left: 100px;
+  z-index: 9;
+  color: #fff;
+  text-align: center;
+}
+.commercialIndex_box_chart_fuel_schedule_toDay span{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.commercialIndex_box_chart_fuel_schedule_toDay p{
+  width: 300px;
+  height: 1px;
+  background-color: #60c6fc;
+  position: relative;
+}
+.commercialIndex_box_chart_fuel_schedule_toDay p i{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -4px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+
+/*总值*/
+.commercialIndex_box_chart_fuel_mask_nbm{
+    position: absolute;
+    top: 110px;
+    right: 114px;
+    color: #fff;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.commercialIndex_box_chart_fuel_mask_nbm p{
+  font-size: 60px;
+}
+.commercialIndex_box_chart_fuel_mask_nbm span{
+  font-size: 20px;
+}
+
+.commercialIndex_fuel_box{
+  width: 100%;
+  height: 280px;
+  margin-top: 48px;
+  position: relative;
+}
+
+
+.commercialIndex_box_chart_fuel_schedule{
+    align-items: center;
+    height: 318px;
+    width: 780px;
+    background: -webkit-gradient(linear ,right top, left top ,from(#ec5526) ,to(#f5a623));
+    background: linear-gradient(to left ,#ec5526 ,#f5a623);
+    -webkit-box-shadow: -24px -200px 116px #f5a623 inset;
+    box-shadow: -24px -200px 116px #f5a623 inset;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+
+.commercialIndex_box_chart_fuel_schedule:before,
+.commercialIndex_box_chart_fuel_schedule:after {
+  content: "";
+  position: absolute;
+  left: 66.5%;
+  min-width: 500px;
+  min-height: 500px;
+  background-color: #3386ab;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.commercialIndex_box_chart_fuel_schedule:before {
+   bottom: 280px;
+   border-radius: 43%;
+   animation-duration: 10s;
+ }
+
+.commercialIndex_box_chart_fuel_schedule:after {
+   bottom: 270px;
+   opacity: .5;
+   border-radius: 45%;
+   animation-duration: 10s;
+ }
+
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+
+
+
+.commercialIndex_box_statistics{
+  background-color: #fff;
+  width: 420px;
+  height: 400px;
+  overflow: hidden;
+}
+.commercialIndex_box_statistics li{
+  height: 135px;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.commercialIndex_box_statistics li p{
+  font-size: 36px;
+  color: #666;
+}
+.commercialIndex_box_statistics li span{
+  font-size: 15px;
+  color: #666;
+}
+
+
+.commercialIndex_box_statistics li .commercialIndex_icon{
+  font-size: 18px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commercialIndex_box_statistics li:nth-child(1) .commercialIndex_icon{
+  border-color: #15bafe;
+  color: #15bafe;
+}
+.commercialIndex_box_statistics li:nth-child(2) .commercialIndex_icon{
+  border-color: #55ce63;
+  color: #55ce63;
+}
+.commercialIndex_box_statistics li:nth-child(3) .commercialIndex_icon{
+  border-color: #f63759;
+  color: #f63759;
+}
+
+/*文字提示*/
+.commercialIndex .prompt{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 20px !important;
+  height: 20px !important;
+}
+.commercialIndex .prompt .icon{
+  color: #f2f2f2;
+  cursor: pointer;
+  width: 20px !important;
+  height: 20px !important;
+}
+.commercialIndex .prompt .icon:hover{
+  color: #ccc;
+}
+
+.commercialIndex .prompt_box{
+  border-color: #dedede !important;
+}
+
+.commercialIndex .prompt_box .popper__arrow{
+  border-left-color: #dedede !important;
+}
+
+.commercialIndex .prompt_text{
+  width: 150px;
+  color: #999;
+}
+
+
+.commercialIndex_box_center{
+  margin-top: 20px;
+}
+.commercialIndex_box_center ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commercialIndex_box_center ul li{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 385px;
+  height: 120px;
+  padding: 0 30px;
+  position: relative;
+}
+.commercialIndex_box_center ul li:nth-child(2){
+  margin: 0 10px;
+}
+
+.commercialIndex_box_center ul li div:nth-child(1) p:nth-child(1){
+  font-size: 36px;
+  color: #666;
+}
+.commercialIndex_box_center ul li div:nth-child(1) p:nth-child(1) span{
+  font-size: 12px;
+  color: #999;
+}
+.commercialIndex_box_center ul li div:nth-child(1) p:nth-child(2){
+  font-size: 15px;
+  color: #222;
+}
+
+
+/*进度条*/
+.commercialIndex_box_center ul li>div:nth-child(2){
+  width: 200px;
+  text-align: right;
+  position: relative;
+  top: 10px;
+}
+
+@media screen and (max-width: 1050px){
+  .commercialIndex_box_center ul li>div:nth-child(2){
+    width: 150px;
+  }
+}
+
+.commercialIndex_box_center ul li>div:nth-child(2) p span{
+  font-size: 12px;
+  color: #999;
+  margin-left: 5px;
+}
+.commercialIndex_box_center ul li>div:nth-child(2) p{
+  margin-top: 10px;
+}
+.commercialIndex_box_center ul li:nth-child(1)>div:nth-child(2) p{
+  font-size: 14px;
+  color: #009efb;
+}
+.commercialIndex_box_center ul li:nth-child(2)>div:nth-child(2) p{
+  font-size: 14px;
+  color: #55ce63;
+}
+.commercialIndex_box_center ul li:nth-child(3)>div:nth-child(2) p{
+  font-size: 14px;
+  color: #ffbc34;
+}
+
+
+.commercialIndex_box_center .el-progress--line{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.commercialIndex_box_center .el-progress__text{
+  font-size: 14px !important;
+}
+
+.commercialIndex_box_center .el-progress-bar__outer{
+  border-radius: 8px !important;
+}
+.commercialIndex_box_center .el-progress-bar__inner{
+  border-radius: 5px !important;
+}
+.commercialIndex_box_center .el-progress-bar{
+  width: 130% !important;
+}
+
+
+
+.commercialIndex_box_center .el-progress-circle{
+  width: 65px !important;
+  height: 65px !important;
+}
+
+
+
+
+/*商家*/
+.commercialIndex_box_center ul li:nth-child(1) .el-progress__text{
+  color: #009efb;
+}
+
+/*活动*/
+.commercialIndex_box_center ul li:nth-child(2) .el-progress__text{
+  color: #55ce63;
+}
+
+/*服务*/
+.commercialIndex_box_center ul li:nth-child(3) .el-progress__text{
+  color: #ffbc34;
+}
+
+
+/*空数据*/
+.commercialIndex_box_center .el-progress-circle{
+
+}
+.commercialIndex_box_center ul .commercialIndex_box_center_none .el-progress__text{
+  color: #606971;
+}
+
+
+
+.commercialIndex_box_main{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.commercialIndex_box_main_left{
+  width: 38%;
+  margin-right: 10px;
+}
+
+
+
+.commercial_main_left_title{
+  background: url("/static/img/commercial_main_left_title.png") no-repeat;
+  background-size: contain;
+  height: 125px;
+}
+
+.commercial_main_left_title div{
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(to bottom,#42c7fe,#2080da);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: relative;
+  top: 50px;
+  color: #fff;
+}
+
+.commercial_main_left_title div p{
+  font-size: 38px;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+}
+.commercial_main_left_title div span{
+  font-size: 12px;
+}
+
+
+
+
+/*tab选项卡*/
+.commercial_main_left_tab{
+  background-color: #fff;
+  padding-top: 80px;
+  height: 290px;
+}
+
+.commercial_main_left_tab .el-tabs__nav-scroll{
+  padding-left: 40px;
+}
+
+
+
+/*性别*/
+.commercial_main_left_tab_sex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.commercial_main_left_tab_sex_box{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+.commercial_main_left_tab_sex_box>div{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+.commercial_main_left_tab_sex_box>div:nth-child(1){
+  width: 37%;
+  background-color: #fc4b6c;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.commercial_main_left_tab_sex_box>div:nth-child(2){
+  width: 63%;
+  background-color: #1e88e5;
+}
+.commercial_main_left_tab_sex_box>div:nth-child(3){
+    width:0;
+    background:#ccc;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.commercialIndex .left_radius{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.commercialIndex .right_radius{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.commercial_main_left_tab_sex_box>div div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50px;
+  top: -55px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+}
+.commercial_main_left_tab_sex_box>div div p{
+  font-size: 14px;
+  color: #666;
+}
+.commercial_main_left_tab_sex_box>div div span{
+  color: #666;
+  width: 1px;
+  height: 30px;
+  background-color: #666;
+  margin: 0 20px;
+  display: block;
+}
+
+
+
+.commercialIndex_box_main_left_list{
+  padding: 0 30px;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #fff;
+  position: relative;
+}
+.commercialIndex_box_main_left_list i{
+  width: 60px;
+  height: 60px;
+}
+.commercialIndex_box_main_left_list i img{
+  width: 100%;
+  height: 100%;
+}
+
+.commercialIndex_box_main_left_list>div{
+  width: 76%;
+}
+.commercialIndex_box_main_left_list>div>span{
+  font-size: 19px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.commercialIndex_box_main_left_list .el-progress__text{
+  font-size: 24px !important;
+  color: #222;
+  margin-left: 25px;
+}
+
+.commercialIndex_box_main_left_list .el-progress-bar{
+  width: 85% !important;
+}
+
+.commercialIndex_box_main_left_list .el-progress{
+  display: flex;
+  align-items: baseline;
+  top: -10px;
+}
+
+
+
+
+
+/*右列表*/
+.commercialIndex_box_main_right{
+  width: 725px;
+  height: 715px;
+  background-color: #fff;
+}
+
+
+/*标题*/
+.commercialIndex_right_title{
+  position:relative;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: linear-gradient(top left, #4ba2ec, #3059e1);
+}
+.commercialIndex_right_title>div:nth-child(1){
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  color: #fff;
+}
+.commercialIndex_right_title>div:nth-child(1) span{
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-right: 10px;
+}
+.commercialIndex_right_title>div:nth-child(1) span img{
+  width: 100%;
+  height: 100%;
+}
+.commercialIndex_right_title .commercialIndex_right_select{
+  position:absolute;
+  right:15px;
+}
+.commercialIndex_right_title .commercialIndex_right_select .el-input{
+    width:100px;
+}
+
+
+
+/*列表内容*/
+.commercialIndex_right_main{
+  height: 83%;
+  width: 90%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 0 20px 0;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*修改滚动条*/
+.commercialIndex_right_main::-webkit-scrollbar{
+  width: 16px;
+  height: 16px;
+}
+.commercialIndex_right_main::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+.commercialIndex_right_main::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: url("/static/img/icon/commercial_scrollBar.png") no-repeat #2ab0f7 center center;
+  background-size: 100%;
+}
+
+
+
+
+.commercialIndex_right_list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 90%;
+  height: 100px;
+  border: 1px solid #dcdcdc;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin: 10px 0;
+}
+.commercialIndex_right_list:hover{
+  background-color: #f2f2f2;
+}
+
+.commercialIndex_right_list_icon{
+  position: absolute;
+  left: -30px;
+}
+.commercialIndex_right_list_icon span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*商*/
+.commercialIndex_icon_business{
+  background-color: #2ab0f7;
+}
+/*百*/
+.commercialIndex_icon_encyclopedia{
+  background-color: #26c6da;
+}
+/*淘*/
+.commercialIndex_icon_bargain{
+  background-color: #ffb22b;
+}
+/*活*/
+.commercialIndex_icon_activity{
+  background-color: #fc4b6c;
+}
+/*视*/
+.commercialIndex_icon_video{
+  background-color: #745af2;
+}
+
+
+.commercialIndex_right_list_name{}
+.commercialIndex_right_list_name p{
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+.commercialIndex_right_list_name span,
+.commercialIndex_right_list_time{
+  font-size: 16px;
+  color: #999;
+}
+
+
+

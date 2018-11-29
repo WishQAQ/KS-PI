@@ -1,0 +1,252 @@
+.userLong,
+.userTiming{
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.userActivities_title{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efeff0;
+}
+
+.userActivities_title div{
+  text-align: center;
+  font-size: 16px;
+  color: #222;
+  border-left: 1px solid #efeff0;
+  border-right: 1px solid #efeff0;
+  margin-left: -1px;
+}
+.userActivities_title div:nth-child(1){
+  width: 377px;
+}
+
+.userActivities_title div:nth-child(2){
+  width: 85px;
+}
+
+.userActivities_title div:nth-child(3){
+  width: 128px;
+}
+
+.userActivities_title div:nth-child(4){
+  width: 108px;
+}
+
+.userActivities_title div:nth-child(5){
+  width: 100px;
+}
+
+.userActivities_title div:nth-child(6){
+  width: 355px;
+}
+
+
+
+/*列表*/
+.userActivities_list{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.userActivities_list>div:nth-child(1){
+  width: 377px;
+}
+
+.userActivities_list>div:nth-child(2){
+  width: 85px;
+}
+
+.userActivities_list>div:nth-child(3){
+  width: 128px;
+}
+
+.userActivities_list>div:nth-child(4){
+  width: 108px;
+}
+
+.userActivities_list>div:nth-child(5){
+  width: 100px;
+}
+
+.userActivities_list>div:nth-child(6){
+  width: 355px;
+}
+
+.userActivities_list>div:not(:nth-child(1)){
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+.userActivities_details{
+  display: flex;
+  align-items: center;
+}
+
+.userActivities_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 105px;
+  height: 105px;
+  margin-right: 30px;
+}
+.userActivities_img img{
+  width: 100%;
+}
+
+
+.userActivities_text{
+
+}
+.userActivities_text h4{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.userActivities_text p{
+  font-size: 12px;
+  color: #999;
+}
+
+
+
+/*状态*/
+
+.userActivities_status{}
+.userActivities_status p{
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  margin: 5px auto;
+}
+.userActivities_status span{
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+}
+
+/*进行中*/
+.userStatus_conduct{}
+.userStatus_conduct p{
+  background: url("/static/img/icon/userActivitier_conduct.png") no-repeat;
+}
+
+/*已用完*/
+.userStatus_useUp{}
+.userStatus_useUp p{
+  background: url("/static/img/icon/userActivitier_useUp.png") no-repeat;
+}
+
+/*已取消*/
+.userStatus_cancel{}
+.userStatus_cancel p{
+  background: url("/static/img/icon/userActivitier_cancel.png") no-repeat;
+}
+.userStatus_cancel span{
+  color: #f55959;
+}
+
+/*已退款*/
+.userStatus_refund{}
+.userStatus_refund p{
+  background: url("/static/img/icon/userActivitier_refund.png") no-repeat;
+}
+
+/*已结束*/
+.userStatus_over{}
+.userStatus_over p{
+  background: url("/static/img/icon/userActivitier_over.png") no-repeat;
+}
+
+
+
+
+/*操作按钮*/
+.userOperating_btm_comment,
+.userOperating_btm_refund,
+.userOperating_btm_delete{
+  color: #666 !important;
+  /* margin-left: 30px; */
+}
+.userActivities_list .is-disabled{
+  color: #ccc !important;
+}
+
+
+
+
+/*定时活动*/
+
+/*标题*/
+.userTiming .userActivities_title div:nth-child(1){
+  width: 370px;
+}
+.userTiming .userActivities_title div:nth-child(2){
+  width: 110px;
+}
+.userTiming .userActivities_title div:nth-child(3){
+  width: 88px;
+}
+.userTiming .userActivities_title div:nth-child(4){
+  width: 100px;
+}
+.userTiming .userActivities_title div:nth-child(5){
+  width: 90px;
+}
+.userTiming .userActivities_title div:nth-child(6){
+  width: 88px;
+}
+.userTiming .userActivities_title div:nth-child(7){
+  width: 310px;
+}
+
+/*内容*/
+
+.userTiming .userActivities_list>div:nth-child(1){
+  width: 370px;
+}
+
+.userTiming .userActivities_list>div:nth-child(2){
+  width: 110px;
+}
+
+.userTiming .userActivities_list>div:nth-child(3){
+  width: 88px;
+}
+
+.userTiming .userActivities_list>div:nth-child(4){
+  width: 100px;
+}
+
+.userTiming .userActivities_list>div:nth-child(5){
+  width: 90px;
+}
+
+.userTiming .userActivities_list>div:nth-child(6){
+  width: 88px;
+}
+
+.userTiming .userActivities_list>div:nth-child(7){
+  width: 310px;
+}
+
+
+
+/*倒数三天*/
+.userTiming_three_time{
+  color: #f5595a !important;
+}
+
+/*倒数十天*/
+.userTiming_three_ten{
+  color: #46cd17 !important;
+}
